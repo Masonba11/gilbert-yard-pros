@@ -10,6 +10,7 @@ export default function ContactForm() {
     email: "",
     phone: "",
     service: "",
+    serviceArea: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -47,6 +48,7 @@ export default function ContactForm() {
           email: formData.email,
           phone: formData.phone,
           service: formData.service,
+          serviceArea: formData.serviceArea,
           message: formData.message,
           subject: `New Contact Form Submission from ${formData.name}`,
           from_name: "Gilbert Yard Pros Contact Form",
@@ -181,6 +183,30 @@ export default function ContactForm() {
                 <option value="hardscaping">Hardscaping</option>
                 <option value="landscape-lighting">Landscape Lighting</option>
                 <option value="landscape-rock">Landscape Rock</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label
+                htmlFor="serviceArea"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
+                Service Area
+              </label>
+              <select
+                id="serviceArea"
+                name="serviceArea"
+                value={formData.serviceArea}
+                onChange={handleChange}
+                className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white hover:border-gray-400"
+              >
+                <option value="">Select a service area</option>
+                <option value="gilbert">Gilbert</option>
+                <option value="mesa">Mesa</option>
+                <option value="chandler">Chandler</option>
+                <option value="san-tan-valley">San Tan Valley</option>
+                <option value="queen-creek">Queen Creek</option>
                 <option value="other">Other</option>
               </select>
             </div>
