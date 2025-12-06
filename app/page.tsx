@@ -199,7 +199,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
           <div className="text-center px-6 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
               Professional Landscaping Services in Gilbert, AZ
             </h1>
             <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
