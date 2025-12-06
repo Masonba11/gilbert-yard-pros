@@ -289,7 +289,7 @@ export default function WeedControlPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>
