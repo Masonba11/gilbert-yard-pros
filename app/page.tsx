@@ -156,11 +156,10 @@ export default function Home() {
               loop
               muted
               playsInline
-              className="w-full h-full object-cover scale-105"
+              className="w-full h-full object-cover"
             >
               <source src="/homepageheroqc.mp4" type="video/mp4" />
             </video>
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-green/20 to-transparent"></div>
           </div>
           <div className="relative overflow-hidden">
             <video
@@ -168,14 +167,13 @@ export default function Home() {
               loop
               muted
               playsInline
-              className="w-full h-full object-cover scale-105"
+              className="w-full h-full object-cover"
             >
               <source src="/landscapeinstallation.mp4" type="video/mp4" />
             </video>
-            <div className="absolute inset-0 bg-gradient-to-l from-primary-green/20 to-transparent"></div>
           </div>
         </div>
-        <div className="absolute inset-0 gradient-hero flex flex-col items-center justify-center">
+        <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
           <div className="text-center px-6 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
               Professional Landscaping Services in Gilbert, AZ
