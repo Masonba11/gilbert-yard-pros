@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   description:
     "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
   openGraph: {
-    title: "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
+    title:
+      "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
     description:
       "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
     url: "https://www.gilbertyardpros.com/blog",
@@ -24,7 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
+    title:
+      "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
     description:
       "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

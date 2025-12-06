@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Professional landscape lighting installation in Gilbert, Arizona. Expert outdoor lighting for safety and ambiance. Free estimates!",
   openGraph: {
-    title: "Landscape Lighting Gilbert AZ | Professional Installation | Gilbert Yard Pros",
+    title:
+      "Landscape Lighting Gilbert AZ | Professional Installation | Gilbert Yard Pros",
     description:
       "Professional landscape lighting installation in Gilbert, Arizona. Expert outdoor lighting for safety and ambiance. Free estimates!",
     url: "https://www.gilbertyardpros.com/services/landscape-lighting-gilbert",
@@ -28,7 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscape Lighting Gilbert AZ | Professional Installation | Gilbert Yard Pros",
+    title:
+      "Landscape Lighting Gilbert AZ | Professional Installation | Gilbert Yard Pros",
     description:
       "Professional landscape lighting installation in Gilbert, Arizona. Expert outdoor lighting for safety and ambiance. Free estimates!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

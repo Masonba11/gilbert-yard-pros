@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Professional landscape rock installation in Gilbert, Arizona. Beautiful, low-maintenance rock landscaping. Free estimates!",
   openGraph: {
-    title: "Landscape Rock Gilbert AZ | Rock Installation Services | Gilbert Yard Pros",
+    title:
+      "Landscape Rock Gilbert AZ | Rock Installation Services | Gilbert Yard Pros",
     description:
       "Professional landscape rock installation in Gilbert, Arizona. Beautiful, low-maintenance rock landscaping. Free estimates!",
     url: "https://www.gilbertyardpros.com/services/landscape-rock-gilbert",
@@ -28,7 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscape Rock Gilbert AZ | Rock Installation Services | Gilbert Yard Pros",
+    title:
+      "Landscape Rock Gilbert AZ | Rock Installation Services | Gilbert Yard Pros",
     description:
       "Professional landscape rock installation in Gilbert, Arizona. Beautiful, low-maintenance rock landscaping. Free estimates!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

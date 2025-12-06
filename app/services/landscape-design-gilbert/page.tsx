@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   description:
     "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
   openGraph: {
-    title: "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
+    title:
+      "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
     description:
       "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
     url: "https://www.gilbertyardpros.com/services/landscape-design-gilbert",
@@ -27,7 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
+    title:
+      "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
     description:
       "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   description:
     "Professional landscape maintenance services in Gilbert, Arizona. Comprehensive maintenance programs for year-round beauty. Free estimates!",
   openGraph: {
-    title: "Landscape Maintenance Gilbert AZ | Professional Maintenance Services | Gilbert Yard Pros",
+    title:
+      "Landscape Maintenance Gilbert AZ | Professional Maintenance Services | Gilbert Yard Pros",
     description:
       "Professional landscape maintenance services in Gilbert, Arizona. Comprehensive maintenance programs for year-round beauty. Free estimates!",
     url: "https://www.gilbertyardpros.com/services/landscape-maintenance-gilbert",
@@ -27,7 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Landscape Maintenance Gilbert AZ | Professional Maintenance Services | Gilbert Yard Pros",
+    title:
+      "Landscape Maintenance Gilbert AZ | Professional Maintenance Services | Gilbert Yard Pros",
     description:
       "Professional landscape maintenance services in Gilbert, Arizona. Comprehensive maintenance programs for year-round beauty. Free estimates!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

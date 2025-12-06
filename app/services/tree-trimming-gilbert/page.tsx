@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Professional tree trimming and pruning services in Gilbert, Arizona. Expert tree care for healthy, beautiful trees. Free estimates!",
   openGraph: {
-    title: "Tree Trimming Gilbert AZ | Professional Tree Pruning | Gilbert Yard Pros",
+    title:
+      "Tree Trimming Gilbert AZ | Professional Tree Pruning | Gilbert Yard Pros",
     description:
       "Professional tree trimming and pruning services in Gilbert, Arizona. Expert tree care for healthy, beautiful trees. Free estimates!",
     url: "https://www.gilbertyardpros.com/services/tree-trimming-gilbert",
@@ -28,7 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tree Trimming Gilbert AZ | Professional Tree Pruning | Gilbert Yard Pros",
+    title:
+      "Tree Trimming Gilbert AZ | Professional Tree Pruning | Gilbert Yard Pros",
     description:
       "Professional tree trimming and pruning services in Gilbert, Arizona. Expert tree care for healthy, beautiful trees. Free estimates!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

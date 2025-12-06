@@ -3,10 +3,12 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Thank You | Gilbert Yard Pros",
-  description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+  description:
+    "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
   openGraph: {
     title: "Thank You | Gilbert Yard Pros",
-    description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+    description:
+      "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
     url: "https://www.gilbertyardpros.com/thank-you",
     type: "website",
     images: [
@@ -21,7 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Thank You | Gilbert Yard Pros",
-    description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+    description:
+      "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
   },
 };
@@ -73,4 +76,3 @@ export default function ThankYouPage() {
     </div>
   );
 }
-

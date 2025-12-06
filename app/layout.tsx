@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   keywords:
     "landscaping gilbert az, landscape paver installation gilbert az, artificial turf gilbert az, irrigation gilbert az, lawn service gilbert, tree removal gilbert az, yard clean up gilbert az, weed control gilbert, tree trimming gilbert az, gilbert landscaping maintenance, lawn care gilbert az, landscape design gilbert az, custom hardscaping gilbert az, landscape lighting gilbert az, landscape rock gilbert az",
   openGraph: {
-    title: "Gilbert Yard Pros | Professional Landscaping & Yard Maintenance Services",
+    title:
+      "Gilbert Yard Pros | Professional Landscaping & Yard Maintenance Services",
     description:
       "Expert landscaping, lawn care, tree trimming, and yard maintenance services in Gilbert, Arizona. Professional paver installation, artificial turf, irrigation, and more.",
     url: "https://www.gilbertyardpros.com",
@@ -27,7 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gilbert Yard Pros | Professional Landscaping & Yard Maintenance Services",
+    title:
+      "Gilbert Yard Pros | Professional Landscaping & Yard Maintenance Services",
     description:
       "Expert landscaping, lawn care, tree trimming, and yard maintenance services in Gilbert, Arizona. Professional paver installation, artificial turf, irrigation, and more.",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

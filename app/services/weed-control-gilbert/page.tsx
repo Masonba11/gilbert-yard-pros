@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Professional weed control services in Gilbert, Arizona. Effective weed treatment to keep your lawn healthy and weed-free. Free estimates!",
   openGraph: {
-    title: "Weed Control Gilbert AZ | Professional Weed Treatment | Gilbert Yard Pros",
+    title:
+      "Weed Control Gilbert AZ | Professional Weed Treatment | Gilbert Yard Pros",
     description:
       "Professional weed control services in Gilbert, Arizona. Effective weed treatment to keep your lawn healthy and weed-free. Free estimates!",
     url: "https://www.gilbertyardpros.com/services/weed-control-gilbert",
@@ -28,7 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Weed Control Gilbert AZ | Professional Weed Treatment | Gilbert Yard Pros",
+    title:
+      "Weed Control Gilbert AZ | Professional Weed Treatment | Gilbert Yard Pros",
     description:
       "Professional weed control services in Gilbert, Arizona. Effective weed treatment to keep your lawn healthy and weed-free. Free estimates!",
     images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],

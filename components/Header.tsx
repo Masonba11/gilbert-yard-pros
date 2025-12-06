@@ -276,7 +276,6 @@ export default function Header() {
               <Link
                 href="/"
                 className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
@@ -306,10 +305,6 @@ export default function Header() {
                   <Link
                     href="/services"
                     className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
-                    onClick={() => {
-                      setIsMenuOpen(false);
-                      setIsServicesOpen(false);
-                    }}
                   >
                     All Services
                   </Link>
@@ -318,10 +313,6 @@ export default function Header() {
                       key={service.href}
                       href={service.href}
                       className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
-                      onClick={() => {
-                        setIsMenuOpen(false);
-                        setIsServicesOpen(false);
-                      }}
                     >
                       {service.name}
                     </Link>
@@ -354,10 +345,6 @@ export default function Header() {
                   <Link
                     href="/service-areas"
                     className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
-                    onClick={() => {
-                      setIsMenuOpen(false);
-                      setIsServiceAreasOpen(false);
-                    }}
                   >
                     All Service Areas
                   </Link>
@@ -366,10 +353,6 @@ export default function Header() {
                       key={area.href}
                       href={area.href}
                       className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
-                      onClick={() => {
-                        setIsMenuOpen(false);
-                        setIsServiceAreasOpen(false);
-                      }}
                     >
                       {area.name}
                     </Link>
@@ -380,7 +363,6 @@ export default function Header() {
               <Link
                 href="/blog"
                 className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </Link>
@@ -388,7 +370,6 @@ export default function Header() {
               <Link
                 href="/contact"
                 className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
@@ -396,7 +377,6 @@ export default function Header() {
               <a
                 href="tel:4809876110"
                 className="bg-gradient-to-r from-primary-green to-primary-green-dark text-white px-6 py-4 font-bold text-center hover:shadow-lg transition-all duration-200 active:scale-95"
-                onClick={() => setIsMenuOpen(false)}
               >
                 480-987-6110
               </a>
