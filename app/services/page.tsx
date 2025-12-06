@@ -234,12 +234,12 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-primary-green text-gray-700">
+      <section className="section-padding bg-primary-green text-white">
         <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             Ready to Get Started?
           </h2>
-          <p className="text-xl mb-6">
+          <p className="text-xl mb-6 text-white">
             Get matched with trusted local contractors for your landscaping
             project
           </p>
@@ -252,7 +252,7 @@ export default function ServicesPage() {
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+              className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
             >
               Call 480-987-6110
             </a>
