@@ -69,7 +69,8 @@ export default function ContactForm() {
       } else {
         setSubmitStatus({
           type: "error",
-          message: "Something went wrong. Please try again or call us directly.",
+          message:
+            "Something went wrong. Please try again or call us directly.",
         });
       }
     } catch (error) {

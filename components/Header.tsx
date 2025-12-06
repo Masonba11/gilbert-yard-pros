@@ -270,31 +270,25 @@ export default function Header() {
           </button>
         </div>
         {/* Mobile Menu */}
-        <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <div className="mt-4 pb-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-1 pt-4">
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
+            <div className="flex flex-col space-y-2 pt-4">
               <Link
                 href="/"
-                className="text-gray-700 active:bg-primary-green active:text-white transition-all duration-200 font-medium px-4 py-3 rounded-lg touch-manipulation"
+                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
-              <div className="border-t border-gray-200 my-2"></div>
+              <div className="border-t border-gray-200 my-1"></div>
               <div>
                 <button
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
-                  className="w-full text-left text-gray-700 active:bg-primary-green active:text-white transition-all duration-200 font-medium px-4 py-3 rounded-lg flex items-center justify-between touch-manipulation"
+                  className="w-full text-left text-gray-700 hover:text-primary-green font-medium px-2 py-2 flex items-center justify-between"
                 >
                   <span>Services</span>
                   <svg
-                    className={`w-5 h-5 transition-transform duration-300 ${
-                      isServicesOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-4 h-4 ${isServicesOpen ? "rotate-180" : ""}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -307,17 +301,11 @@ export default function Header() {
                     />
                   </svg>
                 </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isServicesOpen
-                      ? "max-h-[600px] opacity-100"
-                      : "max-h-0 opacity-0"
-                  }`}
-                >
-                  <div className="pl-6 mt-2 space-y-1">
+                {isServicesOpen && (
+                  <div className="pl-4 mt-2 space-y-1">
                     <Link
                       href="/services"
-                      className="block text-gray-600 active:bg-primary-green active:text-white transition-all duration-200 text-sm px-4 py-2.5 rounded-lg touch-manipulation"
+                      className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServicesOpen(false);
@@ -325,35 +313,30 @@ export default function Header() {
                     >
                       All Services
                     </Link>
-                    {services.map((service, index) => (
+                    {services.map((service) => (
                       <Link
                         key={service.href}
                         href={service.href}
-                        className="block text-gray-600 active:bg-primary-green active:text-white transition-all duration-200 text-sm px-4 py-2.5 rounded-lg touch-manipulation"
+                        className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
                         onClick={() => {
                           setIsMenuOpen(false);
                           setIsServicesOpen(false);
-                        }}
-                        style={{
-                          animationDelay: `${index * 20}ms`,
                         }}
                       >
                         {service.name}
                       </Link>
                     ))}
                   </div>
-                </div>
+                )}
               </div>
               <div>
                 <button
                   onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
-                  className="w-full text-left text-gray-700 active:bg-primary-green active:text-white transition-all duration-200 font-medium px-4 py-3 rounded-lg flex items-center justify-between touch-manipulation"
+                  className="w-full text-left text-gray-700 hover:text-primary-green font-medium px-2 py-2 flex items-center justify-between"
                 >
                   <span>Service Areas</span>
                   <svg
-                    className={`w-5 h-5 transition-transform duration-300 ${
-                      isServiceAreasOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-4 h-4 ${isServiceAreasOpen ? "rotate-180" : ""}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -366,17 +349,11 @@ export default function Header() {
                     />
                   </svg>
                 </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isServiceAreasOpen
-                      ? "max-h-[300px] opacity-100"
-                      : "max-h-0 opacity-0"
-                  }`}
-                >
-                  <div className="pl-6 mt-2 space-y-1">
+                {isServiceAreasOpen && (
+                  <div className="pl-4 mt-2 space-y-1">
                     <Link
                       href="/service-areas"
-                      className="block text-gray-600 active:bg-primary-green active:text-white transition-all duration-200 text-sm px-4 py-2.5 rounded-lg touch-manipulation"
+                      className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServiceAreasOpen(false);
@@ -388,7 +365,7 @@ export default function Header() {
                       <Link
                         key={area.href}
                         href={area.href}
-                        className="block text-gray-600 active:bg-primary-green active:text-white transition-all duration-200 text-sm px-4 py-2.5 rounded-lg touch-manipulation"
+                        className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
                         onClick={() => {
                           setIsMenuOpen(false);
                           setIsServiceAreasOpen(false);
@@ -398,19 +375,19 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                </div>
+                )}
               </div>
               <div className="border-t border-gray-200 my-2"></div>
               <Link
                 href="/blog"
-                className="text-gray-700 active:bg-primary-green active:text-white transition-all duration-200 font-medium px-4 py-3 rounded-lg touch-manipulation"
+                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-700 active:bg-primary-green active:text-white transition-all duration-200 font-medium px-4 py-3 rounded-lg touch-manipulation"
+                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
@@ -418,14 +395,14 @@ export default function Header() {
               <div className="border-t border-gray-200 my-2"></div>
               <a
                 href="tel:4809876110"
-                className="bg-primary-green text-white px-6 py-4 rounded-lg font-semibold active:bg-primary-green-dark active:scale-95 transition-all duration-200 text-center touch-manipulation shadow-lg"
+                className="bg-primary-green text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-green-dark text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 480-987-6110
               </a>
             </div>
           </div>
-        </div>
+        )}
       </nav>
     </header>
   );
