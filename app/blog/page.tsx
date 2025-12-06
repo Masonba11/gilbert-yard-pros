@@ -125,7 +125,7 @@ export default function BlogPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Landscaping Blog
             </h1>
-            <p className="text-xl md:text-2xl max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-white max-w-2xl mx-auto">
               Expert tips, guides, and advice for your Gilbert landscaping needs
             </p>
           </div>

@@ -81,7 +81,7 @@ export default function MaintenancePage() {
           <source src="/homepageheroqc.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
             Landscape Maintenance Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
