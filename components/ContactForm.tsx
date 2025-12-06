@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -55,17 +57,8 @@ export default function ContactForm() {
       const result = await response.json();
 
       if (result.success) {
-        setSubmitStatus({
-          type: "success",
-          message: "Thank you! We'll contact you soon.",
-        });
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          service: "",
-          message: "",
-        });
+        // Redirect to thank you page
+        router.push("/thank-you");
       } else {
         setSubmitStatus({
           type: "error",

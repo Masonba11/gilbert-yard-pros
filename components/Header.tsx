@@ -271,131 +271,131 @@ export default function Header() {
         </div>
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-2 pt-4">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white">
+            <div className="flex flex-col pt-4">
               <Link
                 href="/"
-                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
+                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
-              <div className="border-t border-gray-200 my-1"></div>
-              <div>
-                <button
-                  onClick={() => setIsServicesOpen(!isServicesOpen)}
-                  className="w-full text-left text-gray-700 hover:text-primary-green font-medium px-2 py-2 flex items-center justify-between"
+              
+              <button
+                onClick={() => setIsServicesOpen(!isServicesOpen)}
+                className="text-left text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100 flex items-center justify-between"
+              >
+                <span>Services</span>
+                <svg
+                  className={`w-5 h-5 ${isServicesOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                  <span>Services</span>
-                  <svg
-                    className={`w-4 h-4 ${isServicesOpen ? "rotate-180" : ""}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              
+              {isServicesOpen && (
+                <div className="bg-gray-50">
+                  <Link
+                    href="/services"
+                    className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setIsServicesOpen(false);
+                    }}
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-                {isServicesOpen && (
-                  <div className="pl-4 mt-2 space-y-1">
+                    All Services
+                  </Link>
+                  {services.map((service) => (
                     <Link
-                      href="/services"
-                      className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
+                      key={service.href}
+                      href={service.href}
+                      className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServicesOpen(false);
                       }}
                     >
-                      All Services
+                      {service.name}
                     </Link>
-                    {services.map((service) => (
-                      <Link
-                        key={service.href}
-                        href={service.href}
-                        className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
-                        onClick={() => {
-                          setIsMenuOpen(false);
-                          setIsServicesOpen(false);
-                        }}
-                      >
-                        {service.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-              <div>
-                <button
-                  onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
-                  className="w-full text-left text-gray-700 hover:text-primary-green font-medium px-2 py-2 flex items-center justify-between"
+                  ))}
+                </div>
+              )}
+              
+              <button
+                onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
+                className="text-left text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100 flex items-center justify-between"
+              >
+                <span>Service Areas</span>
+                <svg
+                  className={`w-5 h-5 ${isServiceAreasOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                  <span>Service Areas</span>
-                  <svg
-                    className={`w-4 h-4 ${isServiceAreasOpen ? "rotate-180" : ""}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              
+              {isServiceAreasOpen && (
+                <div className="bg-gray-50">
+                  <Link
+                    href="/service-areas"
+                    className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setIsServiceAreasOpen(false);
+                    }}
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-                {isServiceAreasOpen && (
-                  <div className="pl-4 mt-2 space-y-1">
+                    All Service Areas
+                  </Link>
+                  {serviceAreas.map((area) => (
                     <Link
-                      href="/service-areas"
-                      className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
+                      key={area.href}
+                      href={area.href}
+                      className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServiceAreasOpen(false);
                       }}
                     >
-                      All Service Areas
+                      {area.name}
                     </Link>
-                    {serviceAreas.map((area) => (
-                      <Link
-                        key={area.href}
-                        href={area.href}
-                        className="block text-gray-600 hover:text-primary-green text-sm px-2 py-1"
-                        onClick={() => {
-                          setIsMenuOpen(false);
-                          setIsServiceAreasOpen(false);
-                        }}
-                      >
-                        {area.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-              <div className="border-t border-gray-200 my-2"></div>
+                  ))}
+                </div>
+              )}
+              
               <Link
                 href="/blog"
-                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
+                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </Link>
+              
               <Link
                 href="/contact"
-                className="text-gray-700 hover:text-primary-green font-medium px-2 py-2"
+                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
-              <div className="border-t border-gray-200 my-2"></div>
+              
               <a
                 href="tel:4809876110"
-                className="bg-primary-green text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-green-dark text-center"
+                className="bg-primary-green text-white px-4 py-3 font-semibold hover:bg-primary-green-dark text-center border-b border-gray-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 480-987-6110
