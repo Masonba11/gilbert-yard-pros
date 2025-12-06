@@ -8,6 +8,28 @@ export const metadata: Metadata = {
   title: "Service Areas | Gilbert Yard Pros",
   description:
     "Landscaping services in Gilbert, Mesa, Chandler, Queen Creek, and San Tan Valley, Arizona.",
+  openGraph: {
+    title: "Service Areas | Gilbert Yard Pros",
+    description:
+      "Landscaping services in Gilbert, Mesa, Chandler, Queen Creek, and San Tan Valley, Arizona.",
+    url: "https://www.gilbertyardpros.com/service-areas",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Service Areas | Gilbert Yard Pros",
+    description:
+      "Landscaping services in Gilbert, Mesa, Chandler, Queen Creek, and San Tan Valley, Arizona.",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceAreas = [

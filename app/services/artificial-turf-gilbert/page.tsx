@@ -11,6 +11,28 @@ export const metadata: Metadata = {
     "Artificial Turf Gilbert AZ | Professional Installation | Gilbert Yard Pros",
   description:
     "Professional artificial turf installation in Gilbert, Arizona. High-quality synthetic grass for low-maintenance, beautiful lawns. Free estimates!",
+  openGraph: {
+    title: "Artificial Turf Gilbert AZ | Professional Installation | Gilbert Yard Pros",
+    description:
+      "Professional artificial turf installation in Gilbert, Arizona. High-quality synthetic grass for low-maintenance, beautiful lawns. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/artificial-turf-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Artificial Turf Gilbert AZ | Professional Installation | Gilbert Yard Pros",
+    description:
+      "Professional artificial turf installation in Gilbert, Arizona. High-quality synthetic grass for low-maintenance, beautiful lawns. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

@@ -9,6 +9,28 @@ export const metadata: Metadata = {
   title: "Landscaping Services in Gilbert, Arizona | Gilbert Yard Pros",
   description:
     "Complete landscaping services in Gilbert, AZ. Paver installation, artificial turf, irrigation, tree trimming, yard clean up, weed control, and more.",
+  openGraph: {
+    title: "Landscaping Services in Gilbert, Arizona | Gilbert Yard Pros",
+    description:
+      "Complete landscaping services in Gilbert, AZ. Paver installation, artificial turf, irrigation, tree trimming, yard clean up, weed control, and more.",
+    url: "https://www.gilbertyardpros.com/services",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscaping Services in Gilbert, Arizona | Gilbert Yard Pros",
+    description:
+      "Complete landscaping services in Gilbert, AZ. Paver installation, artificial turf, irrigation, tree trimming, yard clean up, weed control, and more.",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const services = [

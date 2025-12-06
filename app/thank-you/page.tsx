@@ -4,6 +4,26 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Thank You | Gilbert Yard Pros",
   description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+  openGraph: {
+    title: "Thank You | Gilbert Yard Pros",
+    description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+    url: "https://www.gilbertyardpros.com/thank-you",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Thank You | Gilbert Yard Pros",
+    description: "Thank you for contacting Gilbert Yard Pros. We'll be in touch soon!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 export default function ThankYouPage() {

@@ -8,6 +8,28 @@ export const metadata: Metadata = {
   title: "Contact Us | Gilbert Yard Pros | Free Estimates",
   description:
     "Contact Gilbert Yard Pros for professional landscaping services in Gilbert, Arizona. Get matched with trusted local contractors. Free estimates available!",
+  openGraph: {
+    title: "Contact Us | Gilbert Yard Pros | Free Estimates",
+    description:
+      "Contact Gilbert Yard Pros for professional landscaping services in Gilbert, Arizona. Get matched with trusted local contractors. Free estimates available!",
+    url: "https://www.gilbertyardpros.com/contact",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Gilbert Yard Pros | Free Estimates",
+    description:
+      "Contact Gilbert Yard Pros for professional landscaping services in Gilbert, Arizona. Get matched with trusted local contractors. Free estimates available!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const contactPageSchema = {

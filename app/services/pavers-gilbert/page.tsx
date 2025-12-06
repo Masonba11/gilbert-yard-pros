@@ -10,6 +10,28 @@ export const metadata: Metadata = {
   title: "Landscape Paver Installation Gilbert AZ | Gilbert Yard Pros",
   description:
     "Professional landscape paver installation in Gilbert, Arizona. Expert patio, walkway, and driveway paver services. Free estimates!",
+  openGraph: {
+    title: "Landscape Paver Installation Gilbert AZ | Gilbert Yard Pros",
+    description:
+      "Professional landscape paver installation in Gilbert, Arizona. Expert patio, walkway, and driveway paver services. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/pavers-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscape Paver Installation Gilbert AZ | Gilbert Yard Pros",
+    description:
+      "Professional landscape paver installation in Gilbert, Arizona. Expert patio, walkway, and driveway paver services. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

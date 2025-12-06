@@ -606,6 +606,26 @@ export async function generateMetadata({
   return {
     title: `${post.title} | Gilbert Yard Pros Blog`,
     description: post.excerpt,
+    openGraph: {
+      title: `${post.title} | Gilbert Yard Pros Blog`,
+      description: post.excerpt,
+      url: `https://www.gilbertyardpros.com/blog/${slug}`,
+      type: "article",
+      images: [
+        {
+          url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+          width: 1200,
+          height: 630,
+          alt: "Gilbert Yard Pros Logo",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | Gilbert Yard Pros Blog`,
+      description: post.excerpt,
+      images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+    },
   };
 }
 

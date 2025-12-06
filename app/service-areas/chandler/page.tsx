@@ -8,6 +8,28 @@ export const metadata: Metadata = {
   title: "Chandler Landscaping Services | Gilbert Yard Pros",
   description:
     "Professional landscaping services throughout Chandler, Arizona. Serving all neighborhoods with expert lawn care, tree trimming, paver installation, and more.",
+  openGraph: {
+    title: "Chandler Landscaping Services | Gilbert Yard Pros",
+    description:
+      "Professional landscaping services throughout Chandler, Arizona. Serving all neighborhoods with expert lawn care, tree trimming, paver installation, and more.",
+    url: "https://www.gilbertyardpros.com/service-areas/chandler",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chandler Landscaping Services | Gilbert Yard Pros",
+    description:
+      "Professional landscaping services throughout Chandler, Arizona. Serving all neighborhoods with expert lawn care, tree trimming, paver installation, and more.",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceAreaSchema = {

@@ -8,6 +8,28 @@ export const metadata: Metadata = {
   title: "Gilbert Landscaping & Yard Maintenance Services | Gilbert Yard Pros",
   description:
     "Professional landscaping services in Gilbert, AZ. Expert lawn care, tree trimming, paver installation, artificial turf, irrigation, and yard maintenance. Free estimates!",
+  openGraph: {
+    title: "Gilbert Landscaping & Yard Maintenance Services | Gilbert Yard Pros",
+    description:
+      "Professional landscaping services in Gilbert, AZ. Expert lawn care, tree trimming, paver installation, artificial turf, irrigation, and yard maintenance. Free estimates!",
+    url: "https://www.gilbertyardpros.com",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gilbert Landscaping & Yard Maintenance Services | Gilbert Yard Pros",
+    description:
+      "Professional landscaping services in Gilbert, AZ. Expert lawn care, tree trimming, paver installation, artificial turf, irrigation, and yard maintenance. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const services = [

@@ -11,6 +11,28 @@ export const metadata: Metadata = {
     "Lawn Care Gilbert AZ | Professional Lawn Services | Gilbert Yard Pros",
   description:
     "Professional lawn care services in Gilbert, Arizona. Complete lawn care including fertilization, aeration, and more. Free estimates!",
+  openGraph: {
+    title: "Lawn Care Gilbert AZ | Professional Lawn Services | Gilbert Yard Pros",
+    description:
+      "Professional lawn care services in Gilbert, Arizona. Complete lawn care including fertilization, aeration, and more. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/lawn-care-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lawn Care Gilbert AZ | Professional Lawn Services | Gilbert Yard Pros",
+    description:
+      "Professional lawn care services in Gilbert, Arizona. Complete lawn care including fertilization, aeration, and more. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

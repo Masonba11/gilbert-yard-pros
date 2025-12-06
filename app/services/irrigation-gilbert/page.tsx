@@ -9,6 +9,28 @@ export const metadata: Metadata = {
   title: "Irrigation System Installation Gilbert AZ | Gilbert Yard Pros",
   description:
     "Professional irrigation system installation and repair in Gilbert, Arizona. Expert sprinkler system services for efficient lawn watering. Free estimates!",
+  openGraph: {
+    title: "Irrigation System Installation Gilbert AZ | Gilbert Yard Pros",
+    description:
+      "Professional irrigation system installation and repair in Gilbert, Arizona. Expert sprinkler system services for efficient lawn watering. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/irrigation-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Irrigation System Installation Gilbert AZ | Gilbert Yard Pros",
+    description:
+      "Professional irrigation system installation and repair in Gilbert, Arizona. Expert sprinkler system services for efficient lawn watering. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

@@ -10,6 +10,28 @@ export const metadata: Metadata = {
     "Hardscaping Gilbert AZ | Custom Hardscape Installation | Gilbert Yard Pros",
   description:
     "Professional hardscaping services in Gilbert, Arizona. Custom patios, retaining walls, fire features, and more. Free estimates!",
+  openGraph: {
+    title: "Hardscaping Gilbert AZ | Custom Hardscape Installation | Gilbert Yard Pros",
+    description:
+      "Professional hardscaping services in Gilbert, Arizona. Custom patios, retaining walls, fire features, and more. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/hardscaping-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hardscaping Gilbert AZ | Custom Hardscape Installation | Gilbert Yard Pros",
+    description:
+      "Professional hardscaping services in Gilbert, Arizona. Custom patios, retaining walls, fire features, and more. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

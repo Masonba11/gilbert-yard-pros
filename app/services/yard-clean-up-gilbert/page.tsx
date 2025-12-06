@@ -11,6 +11,28 @@ export const metadata: Metadata = {
     "Yard Clean Up Gilbert AZ | Professional Cleanup Services | Gilbert Yard Pros",
   description:
     "Professional yard clean up services in Gilbert, Arizona. Complete cleanup to restore your outdoor space. Free estimates!",
+  openGraph: {
+    title: "Yard Clean Up Gilbert AZ | Professional Cleanup Services | Gilbert Yard Pros",
+    description:
+      "Professional yard clean up services in Gilbert, Arizona. Complete cleanup to restore your outdoor space. Free estimates!",
+    url: "https://www.gilbertyardpros.com/services/yard-clean-up-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Yard Clean Up Gilbert AZ | Professional Cleanup Services | Gilbert Yard Pros",
+    description:
+      "Professional yard clean up services in Gilbert, Arizona. Complete cleanup to restore your outdoor space. Free estimates!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {

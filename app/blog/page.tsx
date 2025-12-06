@@ -7,6 +7,28 @@ export const metadata: Metadata = {
   title: "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
   description:
     "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
+  openGraph: {
+    title: "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
+    description:
+      "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
+    url: "https://www.gilbertyardpros.com/blog",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscaping Blog | Tips, Guides & Expert Advice | Gilbert Yard Pros",
+    description:
+      "Read our landscaping blog for expert tips, guides, and advice on lawn care, irrigation, hardscaping, and more in Gilbert, Arizona.",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 // Sample blog posts - in a real app, these would come from a CMS or database

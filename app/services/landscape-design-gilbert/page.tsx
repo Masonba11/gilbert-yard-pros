@@ -10,6 +10,28 @@ export const metadata: Metadata = {
     "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
   description:
     "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
+  openGraph: {
+    title: "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
+    description:
+      "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
+    url: "https://www.gilbertyardpros.com/services/landscape-design-gilbert",
+    type: "website",
+    images: [
+      {
+        url: "https://www.gilbertyardpros.com/GYPLOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Gilbert Yard Pros Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Landscape Design Gilbert AZ | Custom Design Services | Gilbert Yard Pros",
+    description:
+      "Professional landscape design services in Gilbert, Arizona. Custom landscape design to transform your outdoor space. Free consultations!",
+    images: ["https://www.gilbertyardpros.com/GYPLOGO.png"],
+  },
 };
 
 const serviceSchema = {
