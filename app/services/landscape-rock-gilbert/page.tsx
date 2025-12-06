@@ -80,40 +80,40 @@ export default function LandscapeRockPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 text-center px-4 mb-6">
             Landscape Rock Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-primary-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
+              className="inline-block bg-primary-green text-gray-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
             >
               Get Quote Now
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-gray-900">
+      <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Professional Landscape Rock Installation in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-white mb-4">
+            <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer landscape rock installation in Gilbert, AZ. Our network
               of landscaping professionals installs various types of decorative
               rock, gravel, and stone to enhance your property's appearance
               while reducing maintenance needs.
             </p>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               Landscape rock is an excellent choice for Gilbert's climate,
               providing a water-efficient, low-maintenance alternative to
               traditional mulch or ground cover. We match you with contractors
@@ -130,10 +130,10 @@ export default function LandscapeRockPage() {
 
           {/* Rock Types and Installation Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Landscape Rock Types and Installation
             </h2>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               Get matched with contractors who work with various rock types
               including decomposed granite, river rock, lava rock, pea gravel,
               and decorative stone in multiple colors and sizes. Whether you're
@@ -146,10 +146,10 @@ export default function LandscapeRockPage() {
 
           {/* Water-Efficient Landscape Rock Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Water-Efficient Landscape Rock for Gilbert
             </h2>
-            <p className="text-lg text-white">
+            <p className="text-lg text-gray-700">
               Landscape rock is particularly well-suited for Gilbert's climate
               and water conservation goals. Unlike organic mulches that break
               down and need regular replacement, rock provides a permanent,
@@ -165,10 +165,10 @@ export default function LandscapeRockPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             Benefits of Landscape Rock
           </h2>
-          <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
+          <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
             <li>
               Extremely low maintenance - no watering or replacement needed
             </li>
@@ -181,45 +181,45 @@ export default function LandscapeRockPage() {
             <li>Reduces maintenance costs over time</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             What to Expect from Landscape Rock Installation Contractors
           </h2>
           <div className="space-y-4 mb-8">
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 1. Consultation & Selection
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 We help you select the right rock type, color, and size for your
                 landscape. We consider your aesthetic preferences, maintenance
                 goals, and budget to recommend the best options.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 2. Site Preparation
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Contractors in our network prepare the installation area by
                 removing existing mulch or ground cover, leveling the surface,
                 and installing weed barrier fabric to prevent weed growth.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 3. Rock Installation
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 We spread rock evenly to the appropriate depth, typically 2-4
                 inches depending on rock size. We ensure consistent coverage and
                 proper depth for optimal appearance and function.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 4. Finishing
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 We rake and level the rock, clean up edges, and ensure a
                 professional finish. Contractors in our network remove any
                 excess rock and clean hard surfaces.
@@ -227,15 +227,15 @@ export default function LandscapeRockPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 What types of landscape rock do you install?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Contractors in our network install various rock types including
                 decomposed granite, river rock, lava rock, pea gravel, crushed
                 granite, and decorative stone in multiple colors and sizes.
@@ -243,10 +243,10 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 How much does landscape rock installation cost in Gilbert?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Rock installation costs vary based on the area size, rock type
                 selected, and preparation requirements. Contractors in our
                 network provide detailed estimates for all rock installation
@@ -254,20 +254,20 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 Do you install weed barrier under rock?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Yes, we typically install weed barrier fabric under landscape
                 rock to prevent weed growth. This is essential for maintaining a
                 clean, low-maintenance appearance.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 How deep should landscape rock be installed?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Rock depth depends on the size of the rock. Smaller rocks like
                 pea gravel typically need 2-3 inches, while larger rocks may
                 need 3-4 inches. We'll install to the appropriate depth for your
@@ -275,10 +275,10 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 Can rock be used in combination with plants?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Absolutely. Landscape rock works well with plants, creating
                 attractive, low-maintenance landscapes. We can design
                 installations that incorporate both rock and plantings for
@@ -287,7 +287,7 @@ export default function LandscapeRockPage() {
             </div>
           </div>
 
-          <div className="bg-primary-green text-white rounded-lg p-8 text-center">
+          <div className="bg-primary-green text-gray-700 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready for Landscape Rock in Gilbert?
             </h2>
@@ -298,13 +298,13 @@ export default function LandscapeRockPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
+                className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

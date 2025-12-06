@@ -27,7 +27,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-primary-green-light mb-4">
               Gilbert Yard Pros
             </h3>
-            <p className="text-white">
+            <p className="text-gray-400">
               Connect with trusted local landscaping contractors in Gilbert,
               Arizona.
             </p>
@@ -39,7 +39,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-white hover:text-primary-green-light transition-colors"
+                  className="text-gray-400 hover:text-primary-green-light transition-colors"
                 >
                   Home
                 </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="text-white hover:text-primary-green-light transition-colors"
+                  className="text-gray-400 hover:text-primary-green-light transition-colors"
                 >
                   Services
                 </Link>
@@ -55,7 +55,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/service-areas/gilbert"
-                  className="text-white hover:text-primary-green-light transition-colors"
+                  className="text-gray-400 hover:text-primary-green-light transition-colors"
                 >
                   Service Areas
                 </Link>
@@ -97,16 +97,16 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8">
-          <p className="text-center text-white mb-4">
+          <p className="text-center text-gray-400 mb-4">
             &copy; {new Date().getFullYear()} Gilbert Yard Pros. All rights
             reserved.
           </p>
-          <p className="text-center text-white text-sm max-w-3xl mx-auto mb-4">
+          <p className="text-center text-gray-500 text-sm max-w-3xl mx-auto mb-4">
             Gilbert Yard Pros is a referral and lead-generation platform. We
             connect homeowners with independent landscaping contractors. We do
             not perform landscaping work directly.
           </p>
-          <p className="text-center text-white text-sm">
+          <p className="text-center text-gray-400 text-sm">
             Proud partner:{" "}
             <a
               href="https://theyardexperts.com"

@@ -644,7 +644,7 @@ export default async function BlogPostPage({
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gray-900 text-white h-[400px] md:h-[500px]">
+      <section className="relative bg-white text-gray-700 h-[400px] md:h-[500px]">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
           <div className="relative overflow-hidden">
             <video
@@ -673,14 +673,14 @@ export default async function BlogPostPage({
           <div className="container-max text-center z-10 px-6">
             <Link
               href="/blog"
-              className="text-white/80 hover:text-white mb-4 inline-block"
+              className="text-gray-700/80 hover:text-gray-700 mb-4 inline-block"
             >
               ← Back to Blog
             </Link>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               {post.title}
             </h1>
-            <div className="flex items-center justify-center gap-4 text-white/80">
+            <div className="flex items-center justify-center gap-4 text-gray-700/80">
               <span>{post.category}</span>
               <span>•</span>
               <time>
@@ -696,7 +696,7 @@ export default async function BlogPostPage({
       </section>
 
       {/* Blog Content */}
-      <article className="section-padding bg-gray-900">
+      <article className="section-padding bg-white">
         <div className="container-max max-w-4xl mx-auto">
           <div className="relative h-96 w-full mb-8 rounded-lg overflow-hidden">
             {post.image.endsWith(".mp4") ? (
@@ -724,7 +724,7 @@ export default async function BlogPostPage({
           />
 
           {/* CTA Section */}
-          <div className="mt-12 bg-primary-green text-white rounded-lg p-8 text-center">
+          <div className="mt-12 bg-primary-green text-gray-700 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Transform Your Landscape?
             </h2>
@@ -735,13 +735,13 @@ export default async function BlogPostPage({
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote Now
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
+                className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

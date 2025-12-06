@@ -80,40 +80,40 @@ export default function ArtificialTurfPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 text-center px-4 mb-6">
             Artificial Turf Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-primary-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
+              className="inline-block bg-primary-green text-gray-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
             >
               Get Quote Now
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-gray-900">
+      <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Professional Artificial Turf Installation in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-white mb-4">
+            <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer artificial turf installation in Gilbert, AZ. Our network
               of landscaping professionals specializes in high-quality synthetic
               grass solutions that provide a lush, green appearance without the
               constant maintenance and water requirements of natural grass.
             </p>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               Artificial turf is an excellent choice for Gilbert homeowners who
               want to conserve water, reduce maintenance costs, and enjoy a
               beautiful lawn regardless of the season. Get matched with
@@ -125,10 +125,10 @@ export default function ArtificialTurfPage() {
 
           {/* Why Choose Artificial Turf Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Why Choose Artificial Turf in Gilbert
             </h2>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               We connect you with contractors who work with industry-leading
               artificial turf manufacturers to offer you the best options for
               your specific needs. Whether you're looking to replace your entire
@@ -139,7 +139,7 @@ export default function ArtificialTurfPage() {
               look and feel remarkably like natural grass while providing
               superior durability and performance.
             </p>
-            <p className="text-lg text-white">
+            <p className="text-lg text-gray-700">
               In Gilbert's climate, artificial turf offers significant
               advantages over natural grass. Water conservation is a major
               concern in Arizona, and artificial turf eliminates the need for
@@ -161,10 +161,10 @@ export default function ArtificialTurfPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Benefits of Artificial Turf
             </h2>
-            <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
+            <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
               <li>Significant water savings - perfect for Gilbert's climate</li>
               <li>No mowing, fertilizing, or watering required</li>
               <li>Stays green and beautiful year-round</li>
@@ -178,57 +178,57 @@ export default function ArtificialTurfPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               What to Expect from Artificial Turf Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
-              <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   1. Site Assessment & Design
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Contractors in our network evaluate your property, discuss
                   your goals, and help you select the perfect artificial turf
                   product. They consider factors like usage, drainage, and
                   aesthetic preferences.
                 </p>
               </div>
-              <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   2. Site Preparation
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Proper preparation is essential. Contractors remove existing
                   grass, level the surface, and ensure proper drainage. This
                   foundation work ensures your turf will look great and perform
                   well for years.
                 </p>
               </div>
-              <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   3. Base Installation
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Contractors install a compacted base layer, typically using
                   decomposed granite or similar material, which provides
                   stability, drainage, and a level surface for the turf.
                 </p>
               </div>
-              <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   4. Turf Installation
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Skilled contractors carefully lay the artificial turf,
                   ensuring proper alignment, seamless seams, and precise cutting
                   around obstacles and edges.
                 </p>
               </div>
-              <div className="bg-gray-800 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   5. Finishing & Infill
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Contractors apply infill material to support the turf fibers,
                   add weight for stability, and enhance the natural look and
                   feel. They complete the installation with final trimming and
@@ -240,15 +240,15 @@ export default function ArtificialTurfPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   How much does artificial turf cost in Gilbert?
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Artificial turf costs vary based on the size of the area, type
                   of turf selected, site preparation requirements, and
                   installation complexity. Contractors in our network provide
@@ -256,10 +256,10 @@ export default function ArtificialTurfPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   How long does artificial turf last?
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   High-quality artificial turf can last 15-20 years or more with
                   proper installation and minimal maintenance. The lifespan
                   depends on the product quality, usage, and environmental
@@ -267,10 +267,10 @@ export default function ArtificialTurfPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   Is artificial turf safe for pets?
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Yes, modern artificial turf is pet-friendly. It's easy to
                   clean, drains well, and doesn't harbor pests. We can recommend
                   specific pet-friendly turf options and installation
@@ -278,10 +278,10 @@ export default function ArtificialTurfPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   Does artificial turf get hot in the Arizona sun?
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   Artificial turf can get warm in direct sunlight, but modern
                   products are designed to minimize heat retention. We can
                   discuss cooling options and placement strategies during your
@@ -289,10 +289,10 @@ export default function ArtificialTurfPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">
                   Can artificial turf be installed over existing grass?
                 </h3>
-                <p className="text-white">
+                <p className="text-gray-700">
                   No, existing grass must be removed before installation. Proper
                   site preparation is essential for a successful, long-lasting
                   artificial turf installation.
@@ -303,7 +303,7 @@ export default function ArtificialTurfPage() {
 
           {/* CTA Section */}
           <section className="mb-12">
-            <div className="bg-primary-green text-white rounded-lg p-8 text-center">
+            <div className="bg-primary-green text-gray-700 rounded-lg p-8 text-center">
               <h2 className="text-3xl font-bold mb-4">
                 Ready for Artificial Turf in Gilbert?
               </h2>
@@ -314,13 +314,13 @@ export default function ArtificialTurfPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="#contact-form"
-                  className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                  className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
                 >
                   Get Quote
                 </a>
                 <a
                   href="tel:4809876110"
-                  className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
+                  className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
                 >
                   Call 480-987-6110
                 </a>

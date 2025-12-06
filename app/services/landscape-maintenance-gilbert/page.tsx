@@ -81,40 +81,40 @@ export default function MaintenancePage() {
           <source src="/homepageheroqc.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 text-center px-4 mb-6">
             Landscape Maintenance Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-primary-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
+              className="inline-block bg-primary-green text-gray-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
             >
               Get Quote Now
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-gray-900">
+      <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Professional Landscape Maintenance Services in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-white mb-4">
+            <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer landscape maintenance services in Gilbert, AZ. Our
               network of landscaping professionals offers comprehensive
               maintenance programs that handle all aspects of landscape care,
               ensuring your property always looks its best.
             </p>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               Regular landscape maintenance is essential for preserving the
               beauty and health of your outdoor space. We match you with
               contractors whose maintenance programs are customized to your
@@ -131,10 +131,10 @@ export default function MaintenancePage() {
 
           {/* Maintenance Programs Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Comprehensive Landscape Maintenance Programs
             </h2>
-            <p className="text-lg text-white mb-4">
+            <p className="text-lg text-gray-700 mb-4">
               Whether you need weekly, bi-weekly, or monthly maintenance visits,
               we'll connect you with contractors who provide consistent,
               professional service that keeps your landscape thriving. Our
@@ -147,10 +147,10 @@ export default function MaintenancePage() {
 
           {/* Seasonal Maintenance Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">
               Year-Round Seasonal Maintenance
             </h2>
-            <p className="text-lg text-white">
+            <p className="text-lg text-gray-700">
               A comprehensive maintenance program addresses all aspects of
               landscape care throughout the year. In Gilbert, maintenance needs
               change with the seasons - spring brings growth and the need for
@@ -166,10 +166,10 @@ export default function MaintenancePage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             Benefits of Professional Landscape Maintenance
           </h2>
-          <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
+          <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
             <li>Consistent, professional landscape care</li>
             <li>Saves you time and effort</li>
             <li>Prevents problems before they develop</li>
@@ -180,45 +180,45 @@ export default function MaintenancePage() {
             <li>Comprehensive care in one service</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             What to Expect from Landscape Maintenance Contractors
           </h2>
           <div className="space-y-4 mb-8">
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 1. Property Assessment
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Contractors in our network evaluate your landscape, identify
                 maintenance needs, and develop a customized maintenance plan
                 tailored to your property and preferences.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 2. Regular Service Visits
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Qualified contractors visits on a scheduled basis to perform all
                 maintenance tasks including mowing, trimming, weeding, edging,
                 and general cleanup.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 3. Seasonal Adjustments
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 We adjust maintenance tasks based on seasons, addressing
                 specific needs for spring, summer, fall, and winter in Gilbert's
                 climate.
               </p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 4. Ongoing Monitoring
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Contractors in our network monitor your landscape's health,
                 identify issues early, and address problems proactively to
                 maintain optimal condition.
@@ -226,25 +226,25 @@ export default function MaintenancePage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 What is included in landscape maintenance?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Maintenance programs typically include lawn mowing, edging,
                 trimming, weeding, pruning, fertilization, irrigation checks,
                 and cleanup. Services can be customized based on your needs.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 How often should I schedule maintenance visits?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Frequency depends on your landscape needs and preferences.
                 Weekly visits are common during peak growing season, while
                 bi-weekly or monthly may be sufficient at other times. We'll
@@ -252,30 +252,30 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 Can maintenance be customized to my needs?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Yes, we customize maintenance programs to match your specific
                 needs, budget, and preferences. We can focus on particular areas
                 or include comprehensive care.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 Do you provide maintenance for commercial properties?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 Yes, we provide landscape maintenance for both residential and
                 commercial properties throughout Gilbert. Commercial programs
                 are tailored to business needs and schedules.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 What happens if issues are found during maintenance?
               </h3>
-              <p className="text-white">
+              <p className="text-gray-700">
                 We identify and address issues proactively. If problems require
                 specialized attention, we'll discuss options with you and can
                 coordinate additional services as needed.
@@ -283,7 +283,7 @@ export default function MaintenancePage() {
             </div>
           </div>
 
-          <div className="bg-primary-green text-white rounded-lg p-8 text-center">
+          <div className="bg-primary-green text-gray-700 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold mb-4">
               Need Landscape Maintenance in Gilbert?
             </h2>
@@ -294,13 +294,13 @@ export default function MaintenancePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
+                className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>
