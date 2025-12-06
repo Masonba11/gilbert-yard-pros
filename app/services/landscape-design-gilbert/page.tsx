@@ -72,13 +72,13 @@ export default function LandscapeDesignPage() {
       />
       <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Landscape Design Gilbert AZ
           </h1>
 
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscape Design Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -106,7 +106,7 @@ export default function LandscapeDesignPage() {
 
           {/* Design Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscape Design Process
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -134,7 +134,7 @@ export default function LandscapeDesignPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Landscape Design
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -148,7 +148,7 @@ export default function LandscapeDesignPage() {
             <li>Creates functional outdoor living spaces</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Landscape Design Contractors
           </h2>
           <div className="space-y-4 mb-8">
@@ -208,7 +208,7 @@ export default function LandscapeDesignPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
@@ -272,8 +272,8 @@ export default function LandscapeDesignPage() {
             </div>
           </div>
 
-          <div className="bg-primary-green text-gray-700 rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">
+          <div className="bg-primary-green text-white rounded-lg p-8 text-center">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Ready for Landscape Design in Gilbert?
             </h2>
             <p className="text-xl mb-6">
@@ -283,7 +283,7 @@ export default function LandscapeDesignPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Get Quote
               </a>

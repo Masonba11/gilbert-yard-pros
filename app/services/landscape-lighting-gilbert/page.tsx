@@ -80,13 +80,13 @@ export default function LandscapeLightingPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-700 text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
             Landscape Lighting Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-primary-green text-gray-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
+              className="inline-block bg-primary-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark transition-colors text-center"
             >
               Get Quote Now
             </a>
@@ -103,7 +103,7 @@ export default function LandscapeLightingPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscape Lighting Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -129,7 +129,7 @@ export default function LandscapeLightingPage() {
 
           {/* Lighting Technology Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Modern Landscape Lighting Technology
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -145,7 +145,7 @@ export default function LandscapeLightingPage() {
 
           {/* Landscape Lighting Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-700 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Benefits of Professional Landscape Lighting
             </h2>
             <p className="text-lg text-gray-700">
@@ -164,7 +164,7 @@ export default function LandscapeLightingPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Landscape Lighting
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -178,7 +178,7 @@ export default function LandscapeLightingPage() {
             <li>Creates beautiful nighttime ambiance</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Landscape Lighting Contractors
           </h2>
           <div className="space-y-4 mb-8">
@@ -226,7 +226,7 @@ export default function LandscapeLightingPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-700 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
@@ -283,8 +283,8 @@ export default function LandscapeLightingPage() {
             </div>
           </div>
 
-          <div className="bg-primary-green text-gray-700 rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">
+          <div className="bg-primary-green text-white rounded-lg p-8 text-center">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Ready for Landscape Lighting in Gilbert?
             </h2>
             <p className="text-xl mb-6">
@@ -294,7 +294,7 @@ export default function LandscapeLightingPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Get Quote
               </a>

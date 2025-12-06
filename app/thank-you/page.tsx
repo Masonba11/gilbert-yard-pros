@@ -48,7 +48,7 @@ export default function ThankYouPage() {
             />
           </svg>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
           Thank You!
         </h1>
         <p className="text-lg text-gray-700 mb-6">
@@ -61,7 +61,7 @@ export default function ThankYouPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/"
-            className="inline-block bg-primary-green text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-primary-green-dark transition-colors"
+            className="inline-block bg-primary-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-green-dark transition-colors"
           >
             Return to Home
           </Link>
