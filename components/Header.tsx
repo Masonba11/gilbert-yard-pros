@@ -87,7 +87,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-6">
             <Link
               href="/"
-              className="text-gray-700 hover:text-primary-green transition-colors font-medium"
+              className="text-white hover:text-primary-green transition-colors font-medium"
             >
               Home
             </Link>
@@ -223,13 +223,13 @@ export default function Header() {
             </div>
             <Link
               href="/blog"
-              className="text-gray-700 hover:text-primary-green transition-colors font-medium"
+              className="text-white hover:text-primary-green transition-colors font-medium"
             >
               Blog
             </Link>
             <Link
               href="/contact"
-              className="text-gray-700 hover:text-primary-green transition-colors font-medium"
+              className="text-white hover:text-primary-green transition-colors font-medium"
             >
               Contact
             </Link>

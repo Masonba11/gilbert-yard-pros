@@ -86,22 +86,22 @@ export default function PaversPage() {
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Paver Installation in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer paver installation in Gilbert, AZ. Our network of
               landscaping professionals specializes in creating stunning patios,
@@ -109,7 +109,7 @@ export default function PaversPage() {
               pavers that enhance both the beauty and functionality of your
               property.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               We match you with qualified contractors who understand the unique
               climate and soil conditions in Gilbert, ensuring that every paver
               installation is built to last. Whether you're looking to create an
@@ -121,10 +121,10 @@ export default function PaversPage() {
 
           {/* Paver Materials Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Paver Materials and Options
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               Get matched with contractors who work with a wide variety of paver
               materials including concrete pavers, natural stone, brick, and
               travertine, allowing you to choose the perfect style to complement
@@ -140,10 +140,10 @@ export default function PaversPage() {
 
           {/* Climate Considerations Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Paver Installation for Gilbert's Climate
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               Paver installations in Gilbert require careful consideration of
               the local climate. The intense Arizona sun, temperature
               fluctuations, and occasional monsoon rains can impact hardscape
@@ -166,10 +166,10 @@ export default function PaversPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Benefits of Professional Paver Installation
             </h2>
-            <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
+            <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
               <li>
                 Durable and long-lasting surface that withstands Gilbert's
                 climate
@@ -188,37 +188,37 @@ export default function PaversPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               What to Expect from Paver Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="bg-gray-800 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   Consultation & Design
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Contractors in our network begin with a comprehensive
                   consultation to understand your vision, assess your property,
                   and discuss your budget. They'll help you select the perfect
                   paver style and create a design plan.
                 </p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="bg-gray-800 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   Site Preparation
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Proper site preparation is crucial for a long-lasting
                   installation. Contractors excavate the area, ensure proper
                   drainage, and create a stable base using appropriate
                   materials.
                 </p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="bg-gray-800 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   Professional Installation
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Experienced contractors carefully place each paver according
                   to your design, ensuring precise alignment, consistent
                   spacing, and proper pattern execution. They complete the
@@ -230,10 +230,10 @@ export default function PaversPage() {
 
           {/* Why Choose Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Why Choose Professional Paver Installation in Gilbert
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Professional paver installation offers numerous advantages over
               DIY projects or alternative hardscape materials. When you work
               with contractors through Gilbert Yard Pros, you benefit from their
@@ -245,7 +245,7 @@ export default function PaversPage() {
               the appropriate depth, installing a compacted base layer, and
               ensuring proper slope for drainage.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               In Gilbert's climate, thermal expansion and contraction can cause
               issues with improperly installed pavers. Our contractors account
               for these factors by using appropriate jointing materials, edge
@@ -255,7 +255,7 @@ export default function PaversPage() {
               installation typically comes with warranties, giving you peace of
               mind that your investment is protected.
             </p>
-            <p className="text-lg text-gray-700 mb-8">
+            <p className="text-lg text-white mb-8">
               Beyond technical expertise, our contractors bring design knowledge
               that can help you create outdoor spaces that are both beautiful
               and functional. They can suggest patterns, colors, and layouts
@@ -269,15 +269,15 @@ export default function PaversPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   How much does paver installation cost in Gilbert?
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Paver installation costs vary based on the size of the
                   project, type of pavers selected, site preparation
                   requirements, and design complexity. Contractors in our
@@ -286,10 +286,10 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   What types of pavers do you install?
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Contractors in our network install various paver types
                   including concrete pavers, natural stone, brick, travertine,
                   and permeable pavers. We'll help you choose the best option
@@ -297,10 +297,10 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   How long does paver installation take?
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Installation time depends on the project size and complexity.
                   A typical patio installation takes 2-5 days, while larger
                   projects may take longer. We'll provide a timeline during your
@@ -308,20 +308,20 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   Do pavers require maintenance?
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   Pavers are relatively low maintenance. Regular sweeping,
                   occasional power washing, and periodic resealing (if
                   applicable) will keep them looking great for years to come.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   Can pavers be installed over existing concrete?
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-white">
                   In some cases, pavers can be installed over existing concrete
                   if the surface is in good condition. However, proper
                   preparation and assessment are necessary to ensure a
@@ -344,13 +344,13 @@ export default function PaversPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="#contact-form"
-                  className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                  className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
                 >
                   Get Quote
                 </a>
                 <a
                   href="tel:4809876110"
-                  className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                  className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
                 >
                   Call 480-987-6110
                 </a>

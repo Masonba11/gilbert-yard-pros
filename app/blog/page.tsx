@@ -133,13 +133,13 @@ export default function BlogPage() {
       </section>
 
       {/* Blog Posts Grid */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-900">
         <div className="container-max">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
               <article
                 key={post.id}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow"
+                className="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow"
               >
                 <Link href={`/blog/${post.id}`}>
                   <div className="relative h-48 w-full">
@@ -172,10 +172,10 @@ export default function BlogPage() {
                         })}
                       </time>
                     </div>
-                    <h2 className="text-xl font-bold text-gray-900 mb-3 hover:text-primary-green transition-colors">
+                    <h2 className="text-xl font-bold text-white mb-3 hover:text-primary-green transition-colors">
                       {post.title}
                     </h2>
-                    <p className="text-gray-600 mb-4">{post.excerpt}</p>
+                    <p className="text-white mb-4">{post.excerpt}</p>
                     <span className="text-primary-green font-semibold hover:underline">
                       Read More →
                     </span>
@@ -200,13 +200,13 @@ export default function BlogPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Get Quote Now
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+              className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
             >
               Call 480-987-6110
             </a>

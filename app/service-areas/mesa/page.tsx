@@ -127,7 +127,7 @@ export default function MesaServiceAreaPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -135,14 +135,14 @@ export default function MesaServiceAreaPage() {
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscaping Services in Mesa, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with trusted local
               landscaping contractors throughout Mesa, Arizona. We're proud to
               serve homeowners and businesses across all neighborhoods in Mesa,
@@ -153,10 +153,10 @@ export default function MesaServiceAreaPage() {
 
           {/* Climate and Expertise Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Mesa's Desert Climate and Specialized Landscaping Expertise
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Mesa's unique desert climate requires specialized knowledge and
               expertise in landscaping. Our network of contractors understands
               the specific needs of Arizona landscapes, from water-efficient
@@ -168,10 +168,10 @@ export default function MesaServiceAreaPage() {
 
           {/* Neighborhood Coverage Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Comprehensive Landscaping Services Across All Mesa Neighborhoods
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Whether you're in Dobson Ranch, Las Sendas, Red Mountain Ranch, or
               any other Mesa neighborhood, we bring the same commitment to
               quality and customer service. Our comprehensive services cover
@@ -185,10 +185,10 @@ export default function MesaServiceAreaPage() {
 
           {/* Landscaping Challenges Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Addressing Mesa's Unique Landscaping Challenges
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               The landscaping challenges in Mesa are similar to those throughout
               the East Valley - water conservation, heat tolerance, and low
               maintenance requirements are priorities for most homeowners. Our
@@ -203,10 +203,10 @@ export default function MesaServiceAreaPage() {
 
           {/* Why Choose Us Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Why Choose Gilbert Yard Pros for Mesa Landscaping
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               When you work with contractors through Gilbert Yard Pros, you're
               not just getting landscaping services - you're getting access to
               professionals who understand Mesa's unique environment and can
@@ -219,20 +219,20 @@ export default function MesaServiceAreaPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Neighborhoods We Serve in Mesa
           </h2>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-white mb-4">
             We provide landscaping services throughout Mesa, Arizona, including:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {neighborhoods.map((neighborhood) => (
-              <div key={neighborhood} className="bg-gray-50 rounded-lg p-4">
-                <p className="font-semibold text-gray-900">{neighborhood}</p>
+              <div key={neighborhood} className="bg-gray-800 rounded-lg p-4">
+                <p className="font-semibold text-white">{neighborhood}</p>
               </div>
             ))}
           </div>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-lg text-white mb-8">
             Don't see your neighborhood listed? We serve all areas of Mesa,
             Arizona. Contact us to confirm service availability in your specific
             location.
@@ -247,13 +247,13 @@ export default function MesaServiceAreaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

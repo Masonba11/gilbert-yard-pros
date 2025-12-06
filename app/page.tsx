@@ -231,10 +231,10 @@ export default function Home() {
 
             {/* Introduction Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Connecting Homeowners with Trusted Landscaping Contractors
               </h2>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-white mb-4">
                 Gilbert Yard Pros connects homeowners with experienced, local
                 landscaping contractors throughout Gilbert, Arizona. Our network
                 of landscaping professionals specializes in everything from lawn
@@ -248,10 +248,10 @@ export default function Home() {
 
             {/* Services and Expertise Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Specialized Services for Arizona's Desert Climate
               </h2>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-white mb-4">
                 Whether you need tree trimming, paver installation, artificial
                 turf, irrigation systems, or comprehensive landscape
                 maintenance, we'll match you with qualified contractors who
@@ -267,10 +267,10 @@ export default function Home() {
 
             {/* Matching Process Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Simple and Straightforward Matching Process
               </h2>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-white mb-4">
                 Our matching process is simple and straightforward. When you
                 contact us, we take the time to understand your specific project
                 requirements, budget, and timeline. We then connect you with
@@ -285,10 +285,10 @@ export default function Home() {
 
             {/* Get Started Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Get Matched with Licensed and Insured Professionals
               </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-white">
                 Get matched with a trusted landscaping expert today. Simply tell
                 us about your project, and we'll connect you with qualified
                 local contractors who can provide free estimates for your
@@ -305,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-900">
         <div className="container-max">
           <h2 className="text-4xl md:text-5xl font-bold text-center gradient-text mb-16">
             Our Landscaping Services in Gilbert
@@ -360,18 +360,18 @@ export default function Home() {
       <ContactForm />
 
       {/* FAQ Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-800">
         <div className="container-max">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
             Frequently Asked Questions
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              <div key={index} className="bg-gray-900 rounded-lg p-6 shadow-sm">
+                <h3 className="text-xl font-semibold text-white mb-3">
                   {faq.question}
                 </h3>
-                <p className="text-gray-700">{faq.answer}</p>
+                <p className="text-white">{faq.answer}</p>
               </div>
             ))}
           </div>

@@ -112,7 +112,7 @@ export default function ContactPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -122,13 +122,13 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Information Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Get Your Free Estimate
             </h2>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+            <p className="text-lg text-white max-w-2xl mx-auto">
               Fill out the form below and we'll connect you with qualified local
               contractors who can provide free estimates for your landscaping
               project. Our network of professionals is ready to help transform
@@ -138,26 +138,26 @@ export default function ContactPage() {
 
           {/* Contact Methods */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Call Us</h3>
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-white mb-4">Call Us</h3>
               <a
                 href="tel:4809876110"
                 className="text-2xl font-bold text-primary-green hover:text-primary-green-dark transition-colors"
               >
                 480-987-6110
               </a>
-              <p className="text-gray-600 mt-2">
+              <p className="text-white mt-2">
                 Available Monday - Sunday, 8:00 AM - 6:00 PM
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-white mb-4">
                 Service Area
               </h3>
-              <p className="text-lg text-gray-700 mb-2">
+              <p className="text-lg text-white mb-2">
                 We serve the following areas:
               </p>
-              <ul className="text-gray-600 space-y-1">
+              <ul className="text-white space-y-1">
                 <li>• Gilbert, Arizona</li>
                 <li>• Mesa, Arizona</li>
                 <li>• Chandler, Arizona</li>
@@ -174,7 +174,7 @@ export default function ContactPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-gray-900/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold">1</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-gray-900/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold">2</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
@@ -198,7 +198,7 @@ export default function ContactPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-gray-900/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold">3</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
@@ -218,46 +218,46 @@ export default function ContactPage() {
       <ContactForm />
 
       {/* Additional Information Section */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-800">
         <div className="container-max max-w-4xl">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6 text-center">
             Why Choose Gilbert Yard Pros?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+            <div className="bg-gray-900 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 Trusted Network
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 All contractors in our network are licensed, insured, and
                 committed to providing quality workmanship and excellent
                 customer service.
               </p>
             </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+            <div className="bg-gray-900 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 Free Estimates
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Get free estimates from qualified professionals. No obligation,
                 no hidden fees.
               </p>
             </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+            <div className="bg-gray-900 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 Local Expertise
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Our contractors understand Gilbert's unique climate and
                 landscaping needs, ensuring your project thrives in Arizona's
                 desert environment.
               </p>
             </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+            <div className="bg-gray-900 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-white mb-3">
                 Comprehensive Services
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 From routine maintenance to complete landscape transformations,
                 we connect you with experts for any project size.
               </p>

@@ -92,28 +92,28 @@ export default function LandscapeLightingPage() {
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscape Lighting Services in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer landscape lighting installation in Gilbert, AZ. Our
               network of landscaping professionals designs and installs outdoor
               lighting systems that enhance safety, security, and the beauty of
               your property after dark.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Well-designed landscape lighting extends the enjoyment of your
               outdoor space into the evening hours while providing important
               safety and security benefits. We match you with contractors whose
@@ -129,10 +129,10 @@ export default function LandscapeLightingPage() {
 
           {/* Lighting Technology Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Modern Landscape Lighting Technology
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Get matched with contractors who work with both low-voltage and
               line-voltage lighting systems, LED technology, and smart lighting
               controls. Their designs balance functionality with aesthetics,
@@ -145,10 +145,10 @@ export default function LandscapeLightingPage() {
 
           {/* Landscape Lighting Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Benefits of Professional Landscape Lighting
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               Landscape lighting serves multiple purposes beyond simple
               illumination. Well-placed lights enhance safety by illuminating
               pathways, steps, and potential hazards. Security lighting can
@@ -164,10 +164,10 @@ export default function LandscapeLightingPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Landscape Lighting
           </h2>
-          <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
+          <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
             <li>Enhances safety with illuminated pathways</li>
             <li>Improves security by deterring intruders</li>
             <li>Extends outdoor living into evening hours</li>
@@ -178,47 +178,47 @@ export default function LandscapeLightingPage() {
             <li>Creates beautiful nighttime ambiance</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Landscape Lighting Contractors
           </h2>
           <div className="space-y-4 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 1. Design Consultation
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Contractors in our network assess your property, discuss your
                 lighting goals, and design a lighting plan that addresses
                 safety, security, and aesthetic needs. We consider your
                 landscape features and usage patterns.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 2. System Planning
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 We plan fixture placement, select appropriate lighting types,
                 determine power requirements, and design the electrical layout.
                 We choose between low-voltage and line-voltage systems based on
                 your needs.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 3. Installation
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Our licensed electricians install fixtures, run wiring, install
                 transformers or connections, and set up controls. We ensure all
                 work meets electrical codes and safety standards.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 4. Programming & Testing
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 We program timers or smart controls, adjust fixture angles and
                 brightness, and test the system to ensure optimal performance
                 and appearance.
@@ -226,15 +226,15 @@ export default function LandscapeLightingPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 How much does landscape lighting cost in Gilbert?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Lighting costs vary based on the number of fixtures, system
                 type, installation complexity, and features like smart controls.
                 Contractors in our network provide detailed estimates for all
@@ -242,40 +242,40 @@ export default function LandscapeLightingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 What types of landscape lighting do you install?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Contractors in our network install path lights, spotlights,
                 floodlights, deck lights, step lights, wall wash lights, and
                 more. We'll recommend appropriate fixtures for each application.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Do you install LED lighting?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Yes, we install energy-efficient LED landscape lighting. LED
                 lights last longer, use less energy, and provide excellent
                 illumination for outdoor spaces.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Can lighting be controlled with smart systems?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Yes, we install smart lighting controls that allow you to adjust
                 lighting from your phone, set schedules, and create lighting
                 scenes. We can integrate with various smart home systems.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Do you provide lighting maintenance and repairs?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Yes, we provide maintenance and repair services for existing
                 landscape lighting systems. We can replace fixtures, repair
                 wiring, update controls, and maintain your lighting system.
@@ -294,13 +294,13 @@ export default function LandscapeLightingPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

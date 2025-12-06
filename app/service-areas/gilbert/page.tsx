@@ -142,7 +142,7 @@ export default function GilbertServiceAreaPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -150,14 +150,14 @@ export default function GilbertServiceAreaPage() {
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscaping Services in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with trusted local
               landscaping contractors throughout Gilbert, Arizona. We're proud
               to serve homeowners and businesses across all neighborhoods in
@@ -168,10 +168,10 @@ export default function GilbertServiceAreaPage() {
 
           {/* Climate and Expertise Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Gilbert's Desert Climate and Specialized Landscaping Expertise
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Gilbert's unique desert climate requires specialized knowledge and
               expertise in landscaping. Our network of contractors understands
               the specific needs of Arizona landscapes, from water-efficient
@@ -183,11 +183,11 @@ export default function GilbertServiceAreaPage() {
 
           {/* Neighborhood Coverage Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Comprehensive Landscaping Services Across All Gilbert
               Neighborhoods
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Whether you're in Val Vista Lakes, Seville, Power Ranch, Higley,
               or any other Gilbert neighborhood, we bring the same commitment to
               quality and customer service. Our comprehensive services cover
@@ -201,10 +201,10 @@ export default function GilbertServiceAreaPage() {
 
           {/* Growth and Community Standards Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Working with Gilbert's Growing Communities and HOA Requirements
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Gilbert has experienced significant growth over the years,
               creating a mix of established communities with mature landscapes
               and newer developments where homeowners are establishing their
@@ -218,10 +218,10 @@ export default function GilbertServiceAreaPage() {
 
           {/* Why Choose Us Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Why Choose Gilbert Yard Pros for Gilbert Landscaping
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               The landscaping professionals in our network serving Gilbert bring
               local expertise that's invaluable for creating successful outdoor
               spaces. They understand the specific soil conditions, drainage
@@ -236,30 +236,30 @@ export default function GilbertServiceAreaPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Neighborhoods We Serve in Gilbert
           </h2>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-white mb-4">
             We provide landscaping services throughout Gilbert, Arizona,
             including:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {neighborhoods.map((neighborhood) => (
-              <div key={neighborhood} className="bg-gray-50 rounded-lg p-4">
-                <p className="font-semibold text-gray-900">{neighborhood}</p>
+              <div key={neighborhood} className="bg-gray-800 rounded-lg p-4">
+                <p className="font-semibold text-white">{neighborhood}</p>
               </div>
             ))}
           </div>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-lg text-white mb-8">
             Don't see your neighborhood listed? We serve all areas of Gilbert,
             Arizona. Contact us to confirm service availability in your specific
             location.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Our Services in Gilbert
           </h2>
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-lg text-white mb-6">
             We offer comprehensive landscaping services throughout Gilbert:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -274,10 +274,10 @@ export default function GilbertServiceAreaPage() {
             ))}
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Why Choose Gilbert Yard Pros?
           </h2>
-          <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
+          <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
             <li>Local expertise in Gilbert's climate and landscaping needs</li>
             <li>Comprehensive services from design to maintenance</li>
             <li>Water-efficient solutions for Arizona landscapes</li>
@@ -297,13 +297,13 @@ export default function GilbertServiceAreaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

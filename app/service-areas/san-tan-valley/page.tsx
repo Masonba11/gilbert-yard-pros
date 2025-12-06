@@ -126,7 +126,7 @@ export default function SanTanValleyServiceAreaPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -134,14 +134,14 @@ export default function SanTanValleyServiceAreaPage() {
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscaping Services in San Tan Valley, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with trusted local
               landscaping contractors throughout San Tan Valley, Arizona. We're
               proud to serve homeowners and businesses across all neighborhoods
@@ -152,11 +152,11 @@ export default function SanTanValleyServiceAreaPage() {
 
           {/* Climate and Expertise Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               San Tan Valley's Desert Climate and Specialized Landscaping
               Expertise
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               San Tan Valley's unique desert climate requires specialized
               knowledge and expertise in landscaping. Our network of contractors
               understands the specific needs of Arizona landscapes, from
@@ -168,11 +168,11 @@ export default function SanTanValleyServiceAreaPage() {
 
           {/* Neighborhood Coverage Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Comprehensive Landscaping Services Across All San Tan Valley
               Neighborhoods
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Whether you're in Johnson Ranch, San Tan Heights, Encanterra, or
               any other San Tan Valley neighborhood, we bring the same
               commitment to quality and customer service. Our comprehensive
@@ -185,10 +185,10 @@ export default function SanTanValleyServiceAreaPage() {
 
           {/* Growth and Opportunities Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Landscaping Opportunities in San Tan Valley's Growing Communities
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               As one of the fastest-growing areas in the East Valley, San Tan
               Valley presents unique landscaping opportunities and challenges.
               New construction often means starting with bare lots, allowing for
@@ -202,10 +202,10 @@ export default function SanTanValleyServiceAreaPage() {
 
           {/* Why Choose Us Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Why Choose Gilbert Yard Pros for San Tan Valley Landscaping
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               The contractors serving San Tan Valley through Gilbert Yard Pros
               understand the area's specific characteristics, including its
               proximity to the San Tan Mountains and the unique microclimates
@@ -219,21 +219,21 @@ export default function SanTanValleyServiceAreaPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Neighborhoods We Serve in San Tan Valley
           </h2>
-          <p className="text-lg text-gray-700 mb-4">
+          <p className="text-lg text-white mb-4">
             We provide landscaping services throughout San Tan Valley, Arizona,
             including:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {neighborhoods.map((neighborhood) => (
-              <div key={neighborhood} className="bg-gray-50 rounded-lg p-4">
-                <p className="font-semibold text-gray-900">{neighborhood}</p>
+              <div key={neighborhood} className="bg-gray-800 rounded-lg p-4">
+                <p className="font-semibold text-white">{neighborhood}</p>
               </div>
             ))}
           </div>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-lg text-white mb-8">
             Don't see your neighborhood listed? We serve all areas of San Tan
             Valley, Arizona. Contact us to confirm service availability in your
             specific location.
@@ -248,13 +248,13 @@ export default function SanTanValleyServiceAreaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>

@@ -157,7 +157,7 @@ export default function ServicesPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="text-center px-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
               Landscaping Services in Gilbert, Arizona
             </h1>
             <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
@@ -173,7 +173,7 @@ export default function ServicesPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -181,15 +181,15 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-900">
         <div className="container-max">
           <div className="max-w-4xl mx-auto mb-12">
-            <p className="text-xl text-gray-700 mb-4 text-center">
+            <p className="text-xl text-white mb-4 text-center">
               From lawn care to hardscaping, connect with trusted local
               contractors who offer comprehensive landscaping services to keep
               your Gilbert property looking its best year-round.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Gilbert Yard Pros serves as your connection to experienced
               landscaping professionals throughout Gilbert, Arizona, and the
               surrounding East Valley communities. Our network includes
@@ -199,7 +199,7 @@ export default function ServicesPage() {
               to refresh your outdoor space, we can connect you with the right
               professionals for your project.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               The landscaping needs in Gilbert are unique due to our desert
               climate, water conservation requirements, and the desire for
               low-maintenance yet beautiful outdoor spaces. Our contractors
@@ -209,7 +209,7 @@ export default function ServicesPage() {
               efficient irrigation systems, our network of professionals brings
               expertise in all aspects of Arizona-friendly landscaping.
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               Each service listed below represents a specialized area where our
               contractors excel. We carefully vet all professionals in our
               network to ensure they meet high standards for quality,
@@ -246,13 +246,13 @@ export default function ServicesPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact-form"
-              className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Get Quote
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+              className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
             >
               Call 480-987-6110
             </a>

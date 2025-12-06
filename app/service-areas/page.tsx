@@ -119,7 +119,7 @@ export default function ServiceAreasPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Call Now
               </a>
@@ -127,14 +127,14 @@ export default function ServiceAreasPage() {
           </div>
         </div>
       </section>
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-900">
         <div className="container-max">
           <div className="max-w-4xl mx-auto mb-12">
-            <p className="text-xl text-gray-700 mb-4 text-center">
+            <p className="text-xl text-white mb-4 text-center">
               Gilbert Yard Pros connects homeowners with trusted local
               landscaping contractors throughout the East Valley, Arizona.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               The East Valley of Arizona, encompassing Gilbert, Mesa, Chandler,
               Queen Creek, and San Tan Valley, represents one of the
               fastest-growing regions in the state. This growth has created a
@@ -144,7 +144,7 @@ export default function ServiceAreasPage() {
               communities, bringing local expertise and understanding of the
               unique challenges and opportunities that exist in each area.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Each city in the East Valley has its own character, community
               standards, and specific landscaping needs. Gilbert is known for
               its family-friendly neighborhoods and well-maintained properties.
@@ -157,7 +157,7 @@ export default function ServiceAreasPage() {
               can provide services tailored to each community's unique
               characteristics.
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               When you work with contractors through Gilbert Yard Pros, you're
               connecting with professionals who understand the East Valley's
               climate, soil conditions, water regulations, and community
@@ -175,10 +175,10 @@ export default function ServiceAreasPage() {
               <Link
                 key={area.name}
                 href={area.href}
-                className="bg-gray-50 rounded-lg p-6 hover:bg-primary-green hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
+                className="bg-gray-800 rounded-lg p-6 hover:bg-primary-green hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 <h2 className="text-2xl font-bold mb-3">{area.title}</h2>
-                <p className="text-gray-600 hover:text-white">
+                <p className="text-white hover:text-white">
                   {area.description}
                 </p>
               </Link>

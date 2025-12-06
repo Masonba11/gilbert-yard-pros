@@ -79,11 +79,11 @@ export default function ContactForm() {
   return (
     <section id="contact-form" className="section-padding bg-gradient-to-b from-gray-50 to-white">
       <div className="container-max max-w-2xl mx-auto">
-        <div className="glass rounded-2xl shadow-2xl p-8 md:p-12 border border-gray-200/50">
+        <div className="bg-gray-900 rounded-2xl shadow-2xl p-8 md:p-12 border border-gray-700/50">
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 text-center">
             Get Your Free Estimate
           </h2>
-          <p className="text-gray-600 mb-10 text-center text-lg">
+          <p className="text-white mb-10 text-center text-lg">
             Fill out the form below and we'll connect you with a qualified
             contractor
           </p>
@@ -98,7 +98,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-white mb-2"
               >
                 Name *
               </label>
@@ -117,7 +117,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-white mb-2"
               >
                 Email *
               </label>
@@ -136,7 +136,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-white mb-2"
               >
                 Phone *
               </label>
@@ -155,7 +155,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="service"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-white mb-2"
               >
                 Service Needed
               </label>
@@ -188,7 +188,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-white mb-2"
               >
                 Message
               </label>

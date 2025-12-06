@@ -48,9 +48,9 @@ export default function ServiceCard({
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>
-      <div className="p-6 bg-white">
-        <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-green transition-colors duration-200">{title}</h3>
-        <p className="text-gray-600 mb-4 leading-relaxed">{description}</p>
+      <div className="p-6 bg-gray-900">
+        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary-green transition-colors duration-200">{title}</h3>
+        <p className="text-white mb-4 leading-relaxed">{description}</p>
         <span className="inline-flex items-center text-primary-green font-bold transition-all duration-300 group-hover:translate-x-2">
           Learn More
           <svg className="w-5 h-5 ml-1 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

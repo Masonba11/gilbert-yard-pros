@@ -92,28 +92,28 @@ export default function WeedControlPage() {
             </a>
             <a
               href="tel:4809876110"
-              className="inline-block bg-white text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+              className="inline-block bg-gray-900 text-primary-green border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
             >
               Call Now
             </a>
           </div>
         </div>
       </section>
-      <article className="section-padding bg-white">
+      <article className="section-padding bg-gray-900">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Weed Control Services in Gilbert, Arizona
             </h2>
-            <p className="text-xl text-gray-700 mb-4">
+            <p className="text-xl text-white mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer weed control services in Gilbert, AZ. Our network of
               landscaping professionals provides effective weed treatment
               programs that eliminate existing weeds and prevent new ones from
               taking hold in your landscape.
             </p>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Weeds compete with your grass and plants for water, nutrients, and
               sunlight, making weed control essential for a thriving landscape.
               We match you with contractors whose comprehensive weed control
@@ -129,10 +129,10 @@ export default function WeedControlPage() {
 
           {/* Professional Approach Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Weed Control Approach
             </h2>
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-white mb-4">
               Get matched with contractors who use professional-grade herbicides
               and application methods that effectively target weeds while
               protecting your desirable plants. Their weed control programs can
@@ -140,7 +140,7 @@ export default function WeedControlPage() {
               for optimal results. Effective weed control requires understanding
               weed life cycles and applying treatments at the right times.
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-white">
               Gilbert's climate supports various weed species that can quickly
               take over lawns and landscape beds if not properly managed. Our
               contractors understand which weeds are common in the area and the
@@ -155,10 +155,10 @@ export default function WeedControlPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Weed Control
           </h2>
-          <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
+          <ul className="list-disc list-inside space-y-3 text-lg text-white mb-8 ml-4">
             <li>Eliminates existing weeds effectively</li>
             <li>Prevents new weeds from germinating</li>
             <li>Promotes healthy grass growth</li>
@@ -169,45 +169,45 @@ export default function WeedControlPage() {
             <li>Can be combined with fertilization programs</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Weed Control Contractors
           </h2>
           <div className="space-y-4 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 1. Weed Identification
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 We identify the specific weeds in your lawn and landscape, which
                 helps us select the most effective treatment products and
                 methods.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 2. Treatment Plan
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Contractors in our network develop a customized weed control
                 plan that may include pre-emergent treatments to prevent weeds
                 and post-emergent treatments to eliminate existing weeds.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 3. Application
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Our trained technicians apply weed control products using
                 professional equipment and techniques, ensuring proper coverage
                 and effectiveness.
               </p>
             </div>
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 4. Follow-Up
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Contractors in our network monitor results and provide follow-up
                 treatments as needed. Regular applications throughout the
                 growing season maintain a weed-free lawn.
@@ -215,15 +215,15 @@ export default function WeedControlPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 How often do I need weed control treatments in Gilbert?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Most lawns benefit from regular weed control treatments
                 throughout the growing season. Pre-emergent treatments are
                 typically applied in early spring and fall, with post-emergent
@@ -231,10 +231,10 @@ export default function WeedControlPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Are weed control products safe for pets and children?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 We use professional-grade products that are safe when applied
                 correctly. We follow all label instructions and safety
                 guidelines. Typically, treated areas are safe for pets and
@@ -242,30 +242,30 @@ export default function WeedControlPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Will weed control harm my grass?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 When applied correctly by professionals, weed control products
                 target weeds without harming your healthy grass. We select
                 products appropriate for your grass type.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 Can you control weeds in landscape beds?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Yes, we provide weed control for both lawns and landscape beds.
                 Different products and methods may be used depending on the area
                 and plants present.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 How long does it take to see results?
               </h3>
-              <p className="text-gray-700">
+              <p className="text-white">
                 Results vary by weed type and treatment method. Some weeds show
                 signs of control within days, while others may take a few weeks.
                 We'll discuss expected timelines during your consultation.
@@ -283,13 +283,13 @@ export default function WeedControlPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact-form"
-                className="inline-block bg-white text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                className="inline-block bg-gray-900 text-primary-green px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors text-center"
               >
                 Get Quote
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>
