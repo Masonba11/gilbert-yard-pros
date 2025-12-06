@@ -74,7 +74,7 @@ export default function PaversPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Pavers Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -98,7 +98,7 @@ export default function PaversPage() {
           {/* Introduction Section */}
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Paver Installation in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -121,7 +121,7 @@ export default function PaversPage() {
 
           {/* Paver Materials Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Paver Materials and Options
             </h2>
             <p className="text-lg text-gray-700">
@@ -140,7 +140,7 @@ export default function PaversPage() {
 
           {/* Climate Considerations Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Paver Installation for Gilbert's Climate
             </h2>
             <p className="text-lg text-gray-700">
@@ -166,7 +166,7 @@ export default function PaversPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Benefits of Professional Paver Installation
             </h2>
             <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -188,12 +188,12 @@ export default function PaversPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               What to Expect from Paver Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Consultation & Design
                 </h3>
                 <p className="text-gray-700">
@@ -204,7 +204,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Site Preparation
                 </h3>
                 <p className="text-gray-700">
@@ -215,7 +215,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Professional Installation
                 </h3>
                 <p className="text-gray-700">
@@ -230,7 +230,7 @@ export default function PaversPage() {
 
           {/* Why Choose Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Why Choose Professional Paver Installation in Gilbert
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -269,12 +269,12 @@ export default function PaversPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   How much does paver installation cost in Gilbert?
                 </h3>
                 <p className="text-gray-700">
@@ -286,7 +286,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   What types of pavers do you install?
                 </h3>
                 <p className="text-gray-700">
@@ -297,7 +297,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   How long does paver installation take?
                 </h3>
                 <p className="text-gray-700">
@@ -308,7 +308,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Do pavers require maintenance?
                 </h3>
                 <p className="text-gray-700">
@@ -318,7 +318,7 @@ export default function PaversPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Can pavers be installed over existing concrete?
                 </h3>
                 <p className="text-gray-700">
@@ -334,7 +334,7 @@ export default function PaversPage() {
           {/* CTA Section */}
           <section className="mb-12">
             <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Ready to Install Pavers in Gilbert?
               </h2>
               <p className="text-xl mb-6">

@@ -77,7 +77,7 @@ export default function LawnCarePage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Lawn Care Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -100,7 +100,7 @@ export default function LawnCarePage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Lawn Care Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -126,7 +126,7 @@ export default function LawnCarePage() {
 
           {/* Customized Lawn Care Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Customized Lawn Care Programs
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -142,7 +142,7 @@ export default function LawnCarePage() {
 
           {/* Desert Climate Lawn Care Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Lawn Care for Arizona's Desert Climate
             </h2>
             <p className="text-lg text-gray-700">
@@ -159,7 +159,7 @@ export default function LawnCarePage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Benefits of Professional Lawn Care
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -173,12 +173,12 @@ export default function LawnCarePage() {
             <li>Customized care for your grass type</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             What to Expect from Lawn Care Contractors
           </h2>
           <div className="space-y-4 mb-8">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 1. Lawn Assessment
               </h3>
               <p className="text-gray-700">
@@ -188,7 +188,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 2. Fertilization Program
               </h3>
               <p className="text-gray-700">
@@ -198,7 +198,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 3. Aeration & Overseeding
               </h3>
               <p className="text-gray-700">
@@ -208,7 +208,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 4. Weed & Pest Control
               </h3>
               <p className="text-gray-700">
@@ -217,7 +217,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 5. Ongoing Monitoring
               </h3>
               <p className="text-gray-700">
@@ -228,12 +228,12 @@ export default function LawnCarePage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How often should I fertilize my lawn in Gilbert?
               </h3>
               <p className="text-gray-700">
@@ -244,7 +244,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 What is lawn aeration and why is it important?
               </h3>
               <p className="text-gray-700">
@@ -255,7 +255,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Can lawn care help with brown spots?
               </h3>
               <p className="text-gray-700">
@@ -265,7 +265,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Do you provide organic lawn care options?
               </h3>
               <p className="text-gray-700">
@@ -275,7 +275,7 @@ export default function LawnCarePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How long does it take to see results from lawn care?
               </h3>
               <p className="text-gray-700">
@@ -288,7 +288,7 @@ export default function LawnCarePage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Need Lawn Care in Gilbert?
             </h2>
             <p className="text-xl mb-6">

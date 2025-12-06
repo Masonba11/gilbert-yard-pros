@@ -677,7 +677,7 @@ export default async function BlogPostPage({
             >
               ← Back to Blog
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               {post.title}
             </h1>
             <div className="flex items-center justify-center gap-4 text-gray-700/80">
@@ -725,7 +725,7 @@ export default async function BlogPostPage({
 
           {/* CTA Section */}
           <div className="mt-12 bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Ready to Transform Your Landscape?
             </h2>
             <p className="text-xl mb-6">

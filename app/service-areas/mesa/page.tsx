@@ -111,7 +111,7 @@ export default function MesaServiceAreaPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="text-center px-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Mesa Landscaping Services
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
@@ -139,7 +139,7 @@ export default function MesaServiceAreaPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Landscaping Services in Mesa, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -153,7 +153,7 @@ export default function MesaServiceAreaPage() {
 
           {/* Climate and Expertise Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Mesa's Desert Climate and Specialized Landscaping Expertise
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -168,7 +168,7 @@ export default function MesaServiceAreaPage() {
 
           {/* Neighborhood Coverage Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Landscaping Services Across All Mesa Neighborhoods
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -185,7 +185,7 @@ export default function MesaServiceAreaPage() {
 
           {/* Landscaping Challenges Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Addressing Mesa's Unique Landscaping Challenges
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -203,7 +203,7 @@ export default function MesaServiceAreaPage() {
 
           {/* Why Choose Us Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Why Choose Gilbert Yard Pros for Mesa Landscaping
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -219,7 +219,7 @@ export default function MesaServiceAreaPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Neighborhoods We Serve in Mesa
           </h2>
           <p className="text-lg text-gray-700 mb-4">
@@ -239,7 +239,7 @@ export default function MesaServiceAreaPage() {
           </p>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
             <p className="text-xl mb-6">
               Contact Gilbert Yard Pros for professional landscaping services in
               Mesa, Arizona

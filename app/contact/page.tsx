@@ -96,7 +96,7 @@ export default function ContactPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="container-max text-center z-10 px-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Contact Gilbert Yard Pros
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-8">
@@ -125,7 +125,7 @@ export default function ContactPage() {
       <section className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Get Your Free Estimate
             </h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto">
@@ -139,7 +139,7 @@ export default function ContactPage() {
           {/* Contact Methods */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-white mb-4">Call Us</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Call Us</h3>
               <a
                 href="tel:4809876110"
                 className="text-2xl font-bold text-primary-green hover:text-primary-green-dark transition-colors"
@@ -151,7 +151,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-white mb-4">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
                 Service Area
               </h3>
               <p className="text-lg text-gray-700 mb-2">
@@ -169,7 +169,7 @@ export default function ContactPage() {
 
           {/* How It Works Section */}
           <div className="bg-primary-green text-white rounded-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold text-white mb-6 text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
               How It Works
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -220,12 +220,12 @@ export default function ContactPage() {
       {/* Additional Information Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-max max-w-4xl">
-          <h2 className="text-3xl font-bold text-white mb-6 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
             Why Choose Gilbert Yard Pros?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-700 mb-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 Trusted Network
               </h3>
               <p className="text-gray-700">
@@ -235,7 +235,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-700 mb-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 Free Estimates
               </h3>
               <p className="text-gray-700">
@@ -244,7 +244,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-700 mb-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 Local Expertise
               </h3>
               <p className="text-gray-700">
@@ -254,7 +254,7 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-xl font-semibold text-gray-700 mb-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 Comprehensive Services
               </h3>
               <p className="text-gray-700">

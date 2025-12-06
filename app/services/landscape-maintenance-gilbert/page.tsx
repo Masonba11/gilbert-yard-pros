@@ -81,7 +81,7 @@ export default function MaintenancePage() {
           <source src="/homepageheroqc.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Landscape Maintenance Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -104,7 +104,7 @@ export default function MaintenancePage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Landscape Maintenance Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -131,7 +131,7 @@ export default function MaintenancePage() {
 
           {/* Maintenance Programs Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Landscape Maintenance Programs
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -147,7 +147,7 @@ export default function MaintenancePage() {
 
           {/* Seasonal Maintenance Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Year-Round Seasonal Maintenance
             </h2>
             <p className="text-lg text-gray-700">
@@ -166,7 +166,7 @@ export default function MaintenancePage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Benefits of Professional Landscape Maintenance
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -180,12 +180,12 @@ export default function MaintenancePage() {
             <li>Comprehensive care in one service</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             What to Expect from Landscape Maintenance Contractors
           </h2>
           <div className="space-y-4 mb-8">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 1. Property Assessment
               </h3>
               <p className="text-gray-700">
@@ -195,7 +195,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 2. Regular Service Visits
               </h3>
               <p className="text-gray-700">
@@ -205,7 +205,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 3. Seasonal Adjustments
               </h3>
               <p className="text-gray-700">
@@ -215,7 +215,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 4. Ongoing Monitoring
               </h3>
               <p className="text-gray-700">
@@ -226,12 +226,12 @@ export default function MaintenancePage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 What is included in landscape maintenance?
               </h3>
               <p className="text-gray-700">
@@ -241,7 +241,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How often should I schedule maintenance visits?
               </h3>
               <p className="text-gray-700">
@@ -252,7 +252,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Can maintenance be customized to my needs?
               </h3>
               <p className="text-gray-700">
@@ -262,7 +262,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Do you provide maintenance for commercial properties?
               </h3>
               <p className="text-gray-700">
@@ -272,7 +272,7 @@ export default function MaintenancePage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 What happens if issues are found during maintenance?
               </h3>
               <p className="text-gray-700">
@@ -284,7 +284,7 @@ export default function MaintenancePage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Need Landscape Maintenance in Gilbert?
             </h2>
             <p className="text-xl mb-6">

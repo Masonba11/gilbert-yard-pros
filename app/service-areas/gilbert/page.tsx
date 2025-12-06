@@ -126,7 +126,7 @@ export default function GilbertServiceAreaPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="text-center px-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Landscaping Services in Gilbert, Arizona
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
@@ -154,7 +154,7 @@ export default function GilbertServiceAreaPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Landscaping Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -168,7 +168,7 @@ export default function GilbertServiceAreaPage() {
 
           {/* Climate and Expertise Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Gilbert's Desert Climate and Specialized Landscaping Expertise
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -183,7 +183,7 @@ export default function GilbertServiceAreaPage() {
 
           {/* Neighborhood Coverage Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Landscaping Services Across All Gilbert
               Neighborhoods
             </h2>
@@ -201,7 +201,7 @@ export default function GilbertServiceAreaPage() {
 
           {/* Growth and Community Standards Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Working with Gilbert's Growing Communities and HOA Requirements
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -218,7 +218,7 @@ export default function GilbertServiceAreaPage() {
 
           {/* Why Choose Us Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Why Choose Gilbert Yard Pros for Gilbert Landscaping
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -236,7 +236,7 @@ export default function GilbertServiceAreaPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Neighborhoods We Serve in Gilbert
           </h2>
           <p className="text-lg text-gray-700 mb-4">
@@ -256,7 +256,7 @@ export default function GilbertServiceAreaPage() {
             location.
           </p>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Our Services in Gilbert
           </h2>
           <p className="text-lg text-gray-700 mb-6">
@@ -274,7 +274,7 @@ export default function GilbertServiceAreaPage() {
             ))}
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Why Choose Gilbert Yard Pros?
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -289,7 +289,7 @@ export default function GilbertServiceAreaPage() {
           </ul>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
             <p className="text-xl mb-6">
               Contact Gilbert Yard Pros for professional landscaping services in
               Gilbert, Arizona

@@ -122,7 +122,7 @@ export default function BlogPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="container-max text-center z-10 px-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Landscaping Blog
             </h1>
             <p className="text-xl md:text-2xl max-w-2xl mx-auto">
@@ -172,7 +172,7 @@ export default function BlogPage() {
                         })}
                       </time>
                     </div>
-                    <h2 className="text-xl font-bold text-white mb-3 hover:text-primary-green transition-colors">
+                    <h2 className="text-xl font-bold text-gray-900 mb-3 hover:text-primary-green transition-colors">
                       {post.title}
                     </h2>
                     <p className="text-gray-700 mb-4">{post.excerpt}</p>
@@ -190,7 +190,7 @@ export default function BlogPage() {
       {/* CTA Section */}
       <section className="section-padding bg-primary-green text-white">
         <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Ready to Transform Your Landscape?
           </h2>
           <p className="text-xl mb-6">

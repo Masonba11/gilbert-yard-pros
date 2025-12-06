@@ -157,7 +157,7 @@ export default function ServicesPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="text-center px-6">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Landscaping Services in Gilbert, Arizona
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
@@ -236,7 +236,7 @@ export default function ServicesPage() {
       {/* CTA Section */}
       <section className="section-padding bg-primary-green text-white">
         <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Ready to Get Started?
           </h2>
           <p className="text-xl mb-6 text-white">

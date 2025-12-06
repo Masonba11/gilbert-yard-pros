@@ -80,7 +80,7 @@ export default function LandscapeRockPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Landscape Rock Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,7 +103,7 @@ export default function LandscapeRockPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Landscape Rock Installation in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -130,7 +130,7 @@ export default function LandscapeRockPage() {
 
           {/* Rock Types and Installation Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Landscape Rock Types and Installation
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -146,7 +146,7 @@ export default function LandscapeRockPage() {
 
           {/* Water-Efficient Landscape Rock Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Water-Efficient Landscape Rock for Gilbert
             </h2>
             <p className="text-lg text-gray-700">
@@ -165,7 +165,7 @@ export default function LandscapeRockPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Benefits of Landscape Rock
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -181,12 +181,12 @@ export default function LandscapeRockPage() {
             <li>Reduces maintenance costs over time</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             What to Expect from Landscape Rock Installation Contractors
           </h2>
           <div className="space-y-4 mb-8">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 1. Consultation & Selection
               </h3>
               <p className="text-gray-700">
@@ -196,7 +196,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 2. Site Preparation
               </h3>
               <p className="text-gray-700">
@@ -206,7 +206,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 3. Rock Installation
               </h3>
               <p className="text-gray-700">
@@ -216,7 +216,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 4. Finishing
               </h3>
               <p className="text-gray-700">
@@ -227,12 +227,12 @@ export default function LandscapeRockPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 What types of landscape rock do you install?
               </h3>
               <p className="text-gray-700">
@@ -243,7 +243,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How much does landscape rock installation cost in Gilbert?
               </h3>
               <p className="text-gray-700">
@@ -254,7 +254,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Do you install weed barrier under rock?
               </h3>
               <p className="text-gray-700">
@@ -264,7 +264,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How deep should landscape rock be installed?
               </h3>
               <p className="text-gray-700">
@@ -275,7 +275,7 @@ export default function LandscapeRockPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Can rock be used in combination with plants?
               </h3>
               <p className="text-gray-700">
@@ -288,7 +288,7 @@ export default function LandscapeRockPage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Ready for Landscape Rock in Gilbert?
             </h2>
             <p className="text-xl mb-6">

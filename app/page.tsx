@@ -199,7 +199,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
           <div className="text-center px-6 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight drop-shadow-2xl">
               Professional Landscaping Services in Gilbert, AZ
             </h1>
             <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
@@ -231,7 +231,7 @@ export default function Home() {
 
             {/* Introduction Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Connecting Homeowners with Trusted Landscaping Contractors
               </h2>
               <p className="text-lg text-gray-700 mb-4">
@@ -248,7 +248,7 @@ export default function Home() {
 
             {/* Services and Expertise Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Specialized Services for Arizona's Desert Climate
               </h2>
               <p className="text-lg text-gray-700 mb-4">
@@ -267,7 +267,7 @@ export default function Home() {
 
             {/* Matching Process Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Simple and Straightforward Matching Process
               </h2>
               <p className="text-lg text-gray-700 mb-4">
@@ -285,7 +285,7 @@ export default function Home() {
 
             {/* Get Started Section */}
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Get Matched with Licensed and Insured Professionals
               </h2>
               <p className="text-lg text-gray-700">
@@ -333,7 +333,7 @@ export default function Home() {
       <section className="section-padding gradient-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         <div className="container-max text-center relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 drop-shadow-lg">
             Ready to Transform Your Yard?
           </h2>
           <p className="text-xl md:text-2xl mb-10 text-white/95">
@@ -368,7 +368,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto space-y-6">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <h3 className="text-xl font-semibold text-gray-700 mb-3">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {faq.question}
                 </h3>
                 <p className="text-gray-700">{faq.answer}</p>

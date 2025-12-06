@@ -80,7 +80,7 @@ export default function TreeTrimmingPage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Tree Trimming Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,7 +103,7 @@ export default function TreeTrimmingPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Tree Trimming Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -129,7 +129,7 @@ export default function TreeTrimmingPage() {
 
           {/* Services Offered Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Tree and Shrub Trimming Services
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -163,7 +163,7 @@ export default function TreeTrimmingPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Benefits of Professional Tree Trimming
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -177,12 +177,12 @@ export default function TreeTrimmingPage() {
             <li>Maintains safe clearance from structures</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             What to Expect from Tree Trimming Contractors
           </h2>
           <div className="space-y-4 mb-8">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 1. Tree Assessment
               </h3>
               <p className="text-gray-700">
@@ -193,7 +193,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 2. Planning
               </h3>
               <p className="text-gray-700">
@@ -203,7 +203,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 3. Professional Trimming
               </h3>
               <p className="text-gray-700">
@@ -213,7 +213,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 4. Cleanup
               </h3>
               <p className="text-gray-700">
@@ -225,12 +225,12 @@ export default function TreeTrimmingPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 How often should trees be trimmed in Gilbert?
               </h3>
               <p className="text-gray-700">
@@ -240,7 +240,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 What is the best time of year to trim trees in Arizona?
               </h3>
               <p className="text-gray-700">
@@ -250,7 +250,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Do you remove trees or just trim them?
               </h3>
               <p className="text-gray-700">
@@ -260,7 +260,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Will trimming harm my trees?
               </h3>
               <p className="text-gray-700">
@@ -270,7 +270,7 @@ export default function TreeTrimmingPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 Do you trim palm trees?
               </h3>
               <p className="text-gray-700">
@@ -282,7 +282,7 @@ export default function TreeTrimmingPage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Need Tree Trimming in Gilbert?
             </h2>
             <p className="text-xl mb-6">

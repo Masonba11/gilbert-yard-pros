@@ -75,7 +75,7 @@ export default function IrrigationPage() {
           <source src="/irrigation.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center px-4 mb-6">
             Irrigation Gilbert AZ
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -99,7 +99,7 @@ export default function IrrigationPage() {
           {/* Introduction Section */}
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Professional Irrigation System Installation in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -121,7 +121,7 @@ export default function IrrigationPage() {
 
           {/* Irrigation Services Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Irrigation Services
             </h2>
             <p className="text-lg text-gray-700">
@@ -138,7 +138,7 @@ export default function IrrigationPage() {
 
           {/* Modern Irrigation Technology Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Modern Irrigation Technology
             </h2>
             <p className="text-lg text-gray-700">
@@ -163,7 +163,7 @@ export default function IrrigationPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Benefits of Professional Irrigation Systems
             </h2>
             <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -182,12 +182,12 @@ export default function IrrigationPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               What to Expect from Irrigation Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   1. Site Analysis & Design
                 </h3>
                 <p className="text-gray-700">
@@ -198,7 +198,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   2. System Planning
                 </h3>
                 <p className="text-gray-700">
@@ -209,7 +209,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   3. Installation
                 </h3>
                 <p className="text-gray-700">
@@ -219,7 +219,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   4. Controller Programming
                 </h3>
                 <p className="text-gray-700">
@@ -229,7 +229,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   5. Testing & Training
                 </h3>
                 <p className="text-gray-700">
@@ -244,12 +244,12 @@ export default function IrrigationPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   How much does irrigation system installation cost in Gilbert?
                 </h3>
                 <p className="text-gray-700">
@@ -260,7 +260,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   What types of irrigation systems do you install?
                 </h3>
                 <p className="text-gray-700">
@@ -271,7 +271,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Do you repair existing irrigation systems?
                 </h3>
                 <p className="text-gray-700">
@@ -282,7 +282,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   How often should I water my lawn in Gilbert?
                 </h3>
                 <p className="text-gray-700">
@@ -293,7 +293,7 @@ export default function IrrigationPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Can you install smart irrigation controllers?
                 </h3>
                 <p className="text-gray-700">
@@ -309,7 +309,7 @@ export default function IrrigationPage() {
           {/* CTA Section */}
           <section className="mb-12">
             <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Need Irrigation Services in Gilbert?
               </h2>
               <p className="text-xl mb-6">
