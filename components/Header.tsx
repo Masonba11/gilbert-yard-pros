@@ -76,7 +76,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.png"
+              src="/GYPLOGO.png"
               alt="Gilbert Yard Pros"
               width={300}
               height={90}
