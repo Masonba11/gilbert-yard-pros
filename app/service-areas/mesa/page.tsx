@@ -111,10 +111,10 @@ export default function MesaServiceAreaPage() {
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
           <div className="text-center px-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
               Mesa Landscaping Services
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
               Get matched with trusted local contractors for landscaping,
               maintenance, turf, pavers, and more.
             </p>

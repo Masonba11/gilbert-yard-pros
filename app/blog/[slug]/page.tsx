@@ -673,11 +673,11 @@ export default async function BlogPostPage({
           <div className="container-max text-center z-10 px-6">
             <Link
               href="/blog"
-              className="text-gray-700/80 hover:text-gray-700 mb-4 inline-block"
+              className="text-gray-700/80 hover:text-white mb-4 inline-block"
             >
               ← Back to Blog
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               {post.title}
             </h1>
             <div className="flex items-center justify-center gap-4 text-gray-700/80">
