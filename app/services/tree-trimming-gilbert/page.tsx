@@ -285,7 +285,7 @@ export default function TreeTrimmingPage() {
             <h2 className="text-3xl font-bold text-white mb-4">
               Need Tree Trimming in Gilbert?
             </h2>
-            <p className="text-xl mb-6">
+            <p className="text-xl text-white mb-6">
               Contact Gilbert Yard Pros for professional tree trimming services
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

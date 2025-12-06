@@ -291,7 +291,7 @@ export default function LawnCarePage() {
             <h2 className="text-3xl font-bold text-white mb-4">
               Need Lawn Care in Gilbert?
             </h2>
-            <p className="text-xl mb-6">
+            <p className="text-xl text-white mb-6">
               Contact Gilbert Yard Pros for professional lawn care services
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

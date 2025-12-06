@@ -277,7 +277,7 @@ export default function WeedControlPage() {
             <h2 className="text-3xl font-bold text-white mb-4">
               Need Weed Control in Gilbert?
             </h2>
-            <p className="text-xl mb-6">
+            <p className="text-xl text-white mb-6">
               Contact Gilbert Yard Pros for professional weed control services
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

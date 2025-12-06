@@ -287,7 +287,7 @@ export default function MaintenancePage() {
             <h2 className="text-3xl font-bold text-white mb-4">
               Need Landscape Maintenance in Gilbert?
             </h2>
-            <p className="text-xl mb-6">
+            <p className="text-xl text-white mb-6">
               Contact Gilbert Yard Pros for professional landscape maintenance
               services
             </p>
