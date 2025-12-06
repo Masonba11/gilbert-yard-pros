@@ -202,7 +202,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
               Professional Landscaping Services in Gilbert, AZ
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700/95 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
+            <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
               Get matched with trusted local contractors for landscaping,
               maintenance, turf, pavers, and more.
             </p>
