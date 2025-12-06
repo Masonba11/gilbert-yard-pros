@@ -148,7 +148,7 @@ export default function Home() {
         }}
       />
       {/* Hero Section */}
-      <section className="relative bg-gray-900 text-white h-[600px] md:h-[700px]">
+      <section className="relative bg-gray-900 text-white h-[600px] md:h-[700px] overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
           <div className="relative overflow-hidden">
             <video
@@ -156,10 +156,11 @@ export default function Home() {
               loop
               muted
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-105"
             >
               <source src="/homepageheroqc.mp4" type="video/mp4" />
             </video>
+            <div className="absolute inset-0 bg-gradient-to-r from-primary-green/20 to-transparent"></div>
           </div>
           <div className="relative overflow-hidden">
             <video
@@ -167,18 +168,19 @@ export default function Home() {
               loop
               muted
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-105"
             >
               <source src="/landscapeinstallation.mp4" type="video/mp4" />
             </video>
+            <div className="absolute inset-0 bg-gradient-to-l from-primary-green/20 to-transparent"></div>
           </div>
         </div>
-        <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center">
-          <div className="text-center px-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+        <div className="absolute inset-0 gradient-hero flex flex-col items-center justify-center">
+          <div className="text-center px-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
               Professional Landscaping Services in Gilbert, AZ
             </h1>
-            <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
               Get matched with trusted local contractors for landscaping,
               maintenance, turf, pavers, and more.
             </p>
@@ -198,10 +200,10 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gradient-to-b from-white to-gray-50">
         <div className="container-max">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-8 text-center">
               About Gilbert Yard Pros
             </h2>
 
@@ -281,9 +283,9 @@ export default function Home() {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-white">
         <div className="container-max">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-center gradient-text mb-16">
             Our Landscaping Services in Gilbert
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -306,12 +308,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-primary-green text-white">
-        <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+      <section className="section-padding gradient-primary text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+        <div className="container-max text-center relative z-10">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white drop-shadow-lg">
             Ready to Transform Your Yard?
           </h2>
-          <p className="text-xl mb-8 text-white">
+          <p className="text-xl md:text-2xl mb-10 text-white/95">
             Get a free estimate for your landscaping project in Gilbert, Arizona
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

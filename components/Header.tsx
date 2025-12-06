@@ -71,8 +71,8 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
-      <nav className="container-max py-3 px-4 sm:px-6 lg:px-8">
+    <header className="glass sticky top-0 z-50 border-b border-gray-200/50">
+      <nav className="container-max py-4 px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Image
@@ -271,11 +271,11 @@ export default function Header() {
         </div>
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200/50 glass animate-slide-down">
             <div className="flex flex-col pt-4">
               <Link
                 href="/"
-                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
+                className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
@@ -283,11 +283,11 @@ export default function Header() {
               
               <button
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
-                className="text-left text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100 flex items-center justify-between"
+                className="text-left text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 flex items-center justify-between transition-all duration-200 active:bg-primary-green active:text-white"
               >
                 <span>Services</span>
                 <svg
-                  className={`w-5 h-5 ${isServicesOpen ? "rotate-180" : ""}`}
+                  className={`w-5 h-5 transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -302,10 +302,10 @@ export default function Header() {
               </button>
               
               {isServicesOpen && (
-                <div className="bg-gray-50">
+                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down">
                   <Link
                     href="/services"
-                    className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                    className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
                     onClick={() => {
                       setIsMenuOpen(false);
                       setIsServicesOpen(false);
@@ -317,7 +317,7 @@ export default function Header() {
                     <Link
                       key={service.href}
                       href={service.href}
-                      className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                      className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServicesOpen(false);
@@ -331,11 +331,11 @@ export default function Header() {
               
               <button
                 onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
-                className="text-left text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100 flex items-center justify-between"
+                className="text-left text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 flex items-center justify-between transition-all duration-200 active:bg-primary-green active:text-white"
               >
                 <span>Service Areas</span>
                 <svg
-                  className={`w-5 h-5 ${isServiceAreasOpen ? "rotate-180" : ""}`}
+                  className={`w-5 h-5 transition-transform duration-200 ${isServiceAreasOpen ? "rotate-180" : ""}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -350,10 +350,10 @@ export default function Header() {
               </button>
               
               {isServiceAreasOpen && (
-                <div className="bg-gray-50">
+                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down">
                   <Link
                     href="/service-areas"
-                    className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                    className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
                     onClick={() => {
                       setIsMenuOpen(false);
                       setIsServiceAreasOpen(false);
@@ -365,7 +365,7 @@ export default function Header() {
                     <Link
                       key={area.href}
                       href={area.href}
-                      className="block text-gray-600 hover:bg-gray-100 text-sm px-8 py-2 border-b border-gray-100"
+                      className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
                       onClick={() => {
                         setIsMenuOpen(false);
                         setIsServiceAreasOpen(false);
@@ -379,7 +379,7 @@ export default function Header() {
               
               <Link
                 href="/blog"
-                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
+                className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
@@ -387,7 +387,7 @@ export default function Header() {
               
               <Link
                 href="/contact"
-                className="text-gray-700 hover:bg-gray-100 font-medium px-4 py-3 border-b border-gray-100"
+                className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
@@ -395,7 +395,7 @@ export default function Header() {
               
               <a
                 href="tel:4809876110"
-                className="bg-primary-green text-white px-4 py-3 font-semibold hover:bg-primary-green-dark text-center border-b border-gray-100"
+                className="bg-gradient-to-r from-primary-green to-primary-green-dark text-white px-6 py-4 font-bold text-center hover:shadow-lg transition-all duration-200 active:scale-95"
                 onClick={() => setIsMenuOpen(false)}
               >
                 480-987-6110

@@ -77,13 +77,13 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact-form" className="section-padding bg-gray-50">
+    <section id="contact-form" className="section-padding bg-gradient-to-b from-gray-50 to-white">
       <div className="container-max max-w-2xl mx-auto">
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center">
+        <div className="glass rounded-2xl shadow-2xl p-8 md:p-12 border border-gray-200/50">
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4 text-center">
             Get Your Free Estimate
           </h2>
-          <p className="text-gray-600 mb-8 text-center">
+          <p className="text-gray-600 mb-10 text-center text-lg">
             Fill out the form below and we'll connect you with a qualified
             contractor
           </p>
@@ -109,7 +109,7 @@ export default function ContactForm() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base"
+                className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white hover:border-gray-400"
                 placeholder="Your name"
               />
             </div>
@@ -128,7 +128,7 @@ export default function ContactForm() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base"
+                className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white hover:border-gray-400"
                 placeholder="your.email@example.com"
               />
             </div>
@@ -147,7 +147,7 @@ export default function ContactForm() {
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base"
+                className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white hover:border-gray-400"
                 placeholder="480-987-6110"
               />
             </div>
@@ -164,7 +164,7 @@ export default function ContactForm() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white"
+                className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-all duration-200 active:border-primary-green touch-manipulation text-base bg-white hover:border-gray-400"
               >
                 <option value="">Select a service</option>
                 <option value="pavers">Pavers</option>
@@ -218,7 +218,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-primary-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary-green-dark active:bg-primary-green-dark active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 touch-manipulation shadow-lg hover:shadow-xl"
+              className="w-full gradient-primary text-white px-8 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-primary-green/50 active:scale-95 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 touch-manipulation shadow-xl"
             >
               {isSubmitting ? "Submitting..." : "Get Free Estimate"}
             </button>

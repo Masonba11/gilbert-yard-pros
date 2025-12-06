@@ -9,11 +9,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Mobile touch optimizations */
@@ -29,29 +31,64 @@ body {
   input,
   select,
   textarea {
-    min-height: 44px;
-    min-width: 44px;
+    min-height: 48px;
+    min-width: 48px;
   }
 
   /* Active state feedback for touch */
   button:active,
   a:active {
-    transform: scale(0.97);
+    transform: scale(0.96);
     transition: transform 0.1s ease;
   }
 }
 
+/* Modern scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2E7D32 0%, #1B5E20 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1B5E20;
+}
+
 @layer components {
   .btn-primary {
-    @apply bg-primary-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-green-dark active:bg-primary-green-dark active:scale-95 transition-all duration-200 touch-manipulation shadow-md hover:shadow-lg;
+    @apply bg-gradient-to-r from-primary-green to-primary-green-dark text-white px-8 py-4 rounded-xl font-bold hover:shadow-2xl active:scale-95 transition-all duration-300 touch-manipulation shadow-lg hover:shadow-primary-green/50;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+  }
+
+  .btn-primary:hover::before {
+    left: 100%;
   }
 
   .btn-secondary {
-    @apply bg-white text-primary-green border-2 border-primary-green px-6 py-3 rounded-lg font-semibold hover:bg-primary-green hover:text-white active:bg-primary-green active:text-white active:scale-95 transition-all duration-200 touch-manipulation;
+    @apply bg-white/10 backdrop-blur-md text-white border-2 border-white/30 px-8 py-4 rounded-xl font-bold hover:bg-white/20 hover:border-white/50 active:scale-95 transition-all duration-300 touch-manipulation shadow-lg;
   }
 
   .section-padding {
-    @apply py-16 px-4 sm:px-6 lg:px-8;
+    @apply py-20 md:py-24 px-4 sm:px-6 lg:px-8;
   }
 
   .container-max {
@@ -86,21 +123,55 @@ body {
     @apply font-semibold text-gray-900;
   }
 
+  /* Modern glassmorphism effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-xl border border-white/20 shadow-2xl;
+  }
+
+  .glass-dark {
+    @apply bg-black/20 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+
+  /* Modern gradient backgrounds */
+  .gradient-primary {
+    @apply bg-gradient-to-br from-primary-green via-primary-green-dark to-primary-green;
+  }
+
+  .gradient-hero {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.95) 0%, rgba(27, 94, 32, 0.95) 100%);
+  }
+
   /* Mobile-optimized CTA buttons */
   .cta-button {
-    @apply inline-block px-8 py-4 rounded-lg font-bold text-lg text-center touch-manipulation transition-all duration-200 active:scale-95 shadow-md hover:shadow-lg;
-    min-height: 48px;
+    @apply inline-block px-8 py-4 rounded-xl font-bold text-lg text-center touch-manipulation transition-all duration-300 active:scale-95 shadow-xl hover:shadow-2xl;
+    min-height: 52px;
+    position: relative;
+    overflow: hidden;
   }
 
   .cta-button-primary {
-    @apply bg-white text-primary-green hover:bg-gray-100;
+    @apply bg-white text-primary-green hover:bg-gray-50 hover:shadow-primary-green/30;
   }
 
   .cta-button-secondary {
-    @apply bg-transparent text-white border-2 border-white hover:bg-white/10;
+    @apply bg-white/10 backdrop-blur-md text-white border-2 border-white/30 hover:bg-white/20 hover:border-white/50;
   }
 
   .cta-button-green {
-    @apply bg-primary-green text-white hover:bg-primary-green-dark;
+    @apply bg-gradient-to-r from-primary-green to-primary-green-dark text-white hover:shadow-primary-green/50;
+  }
+
+  /* Modern card hover effect */
+  .card-modern {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100;
+  }
+
+  .card-modern:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Animated gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-green to-primary-green-dark bg-clip-text text-transparent;
   }
 }
