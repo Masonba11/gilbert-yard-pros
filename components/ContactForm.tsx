@@ -32,21 +32,54 @@ export default function ContactForm() {
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: "" });
 
-    // Simulate form submission (replace with actual API call)
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "1559c162-e5a1-43b9-96a4-b7590be94401",
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          service: formData.service,
+          message: formData.message,
+          subject: `New Contact Form Submission from ${formData.name}`,
+          from_name: "Gilbert Yard Pros Contact Form",
+          botcheck: false,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitStatus({
+          type: "success",
+          message: "Thank you! We'll contact you soon.",
+        });
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          service: "",
+          message: "",
+        });
+      } else {
+        setSubmitStatus({
+          type: "error",
+          message: "Something went wrong. Please try again or call us directly.",
+        });
+      }
+    } catch (error) {
       setSubmitStatus({
-        type: "success",
-        message: "Thank you! We'll contact you soon.",
+        type: "error",
+        message: "Something went wrong. Please try again or call us directly.",
       });
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        service: "",
-        message: "",
-      });
-    }, 1000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -62,6 +95,12 @@ export default function ContactForm() {
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">
+            <input
+              type="checkbox"
+              name="botcheck"
+              className="hidden"
+              style={{ display: "none" }}
+            />
             <div>
               <label
                 htmlFor="name"
