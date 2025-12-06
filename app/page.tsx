@@ -330,17 +330,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding gradient-primary text-gray-700 relative overflow-hidden">
+      <section className="section-padding gradient-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         <div className="container-max text-center relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-gray-700 drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-lg">
             Ready to Transform Your Yard?
           </h2>
-          <p className="text-xl md:text-2xl mb-10 text-gray-700/95">
+          <p className="text-xl md:text-2xl mb-10 text-white/95">
             Get a free estimate for your landscaping project in Gilbert, Arizona
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#contact-form" className="cta-button cta-button-primary">
+            <a href="#contact-form" className="cta-button cta-button-secondary">
               Get Quote
             </a>
             <a
