@@ -287,7 +287,7 @@ export default function YardCleanUpPage() {
             <h2 className="text-3xl font-bold text-white mb-4">
               Need Yard Clean Up in Gilbert?
             </h2>
-            <p className="text-xl mb-6">
+            <p className="text-xl text-white mb-6">
               Contact Gilbert Yard Pros for professional yard clean up services
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -299,7 +299,7 @@ export default function YardCleanUpPage() {
               </a>
               <a
                 href="tel:4809876110"
-                className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
               >
                 Call 480-987-6110
               </a>
