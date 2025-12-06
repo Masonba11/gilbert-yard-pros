@@ -103,7 +103,7 @@ export default function WeedControlPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Weed Control Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -129,7 +129,7 @@ export default function WeedControlPage() {
 
           {/* Professional Approach Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Weed Control Approach
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -155,7 +155,7 @@ export default function WeedControlPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Weed Control
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -169,7 +169,7 @@ export default function WeedControlPage() {
             <li>Can be combined with fertilization programs</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Weed Control Contractors
           </h2>
           <div className="space-y-4 mb-8">
@@ -215,7 +215,7 @@ export default function WeedControlPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
@@ -274,7 +274,7 @@ export default function WeedControlPage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Need Weed Control in Gilbert?
             </h2>
             <p className="text-xl mb-6">

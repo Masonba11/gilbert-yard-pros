@@ -104,7 +104,7 @@ export default function MaintenancePage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Landscape Maintenance Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -131,7 +131,7 @@ export default function MaintenancePage() {
 
           {/* Maintenance Programs Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Comprehensive Landscape Maintenance Programs
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -147,7 +147,7 @@ export default function MaintenancePage() {
 
           {/* Seasonal Maintenance Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Year-Round Seasonal Maintenance
             </h2>
             <p className="text-lg text-gray-700">
@@ -166,7 +166,7 @@ export default function MaintenancePage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Landscape Maintenance
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -180,7 +180,7 @@ export default function MaintenancePage() {
             <li>Comprehensive care in one service</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Landscape Maintenance Contractors
           </h2>
           <div className="space-y-4 mb-8">
@@ -226,7 +226,7 @@ export default function MaintenancePage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
@@ -284,7 +284,7 @@ export default function MaintenancePage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Need Landscape Maintenance in Gilbert?
             </h2>
             <p className="text-xl mb-6">

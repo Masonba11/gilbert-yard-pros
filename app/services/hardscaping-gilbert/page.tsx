@@ -104,7 +104,7 @@ export default function HardscapingPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Hardscaping Services in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -132,7 +132,7 @@ export default function HardscapingPage() {
 
           {/* Hardscaping Services Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Custom Hardscaping Solutions
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -149,7 +149,7 @@ export default function HardscapingPage() {
 
           {/* Hardscape Design and Installation Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Hardscape Design and Installation
             </h2>
             <p className="text-lg text-gray-700">
@@ -167,7 +167,7 @@ export default function HardscapingPage() {
             </p>
           </section>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Benefits of Professional Hardscaping
           </h2>
           <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -181,7 +181,7 @@ export default function HardscapingPage() {
             <li>Extends usable living space outdoors</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             What to Expect from Hardscaping Contractors
           </h2>
           <div className="space-y-4 mb-8">
@@ -228,7 +228,7 @@ export default function HardscapingPage() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6 mb-8">
@@ -289,7 +289,7 @@ export default function HardscapingPage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Ready for Hardscaping in Gilbert?
             </h2>
             <p className="text-xl mb-6">

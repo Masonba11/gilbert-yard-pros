@@ -98,7 +98,7 @@ export default function PaversPage() {
           {/* Introduction Section */}
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Professional Paver Installation in Gilbert, Arizona
             </h2>
             <p className="text-xl text-gray-700 mb-4">
@@ -121,7 +121,7 @@ export default function PaversPage() {
 
           {/* Paver Materials Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Paver Materials and Options
             </h2>
             <p className="text-lg text-gray-700">
@@ -140,7 +140,7 @@ export default function PaversPage() {
 
           {/* Climate Considerations Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Paver Installation for Gilbert's Climate
             </h2>
             <p className="text-lg text-gray-700">
@@ -166,7 +166,7 @@ export default function PaversPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Benefits of Professional Paver Installation
             </h2>
             <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -188,7 +188,7 @@ export default function PaversPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               What to Expect from Paver Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
@@ -230,7 +230,7 @@ export default function PaversPage() {
 
           {/* Why Choose Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Why Choose Professional Paver Installation in Gilbert
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -269,7 +269,7 @@ export default function PaversPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
@@ -334,10 +334,10 @@ export default function PaversPage() {
           {/* CTA Section */}
           <section className="mb-12">
             <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-white mb-4">
                 Ready to Install Pavers in Gilbert?
               </h2>
-              <p className="text-xl mb-6">
+              <p className="text-xl text-white mb-6">
                 Contact Gilbert Yard Pros for a free estimate on your paver
                 installation project
               </p>
@@ -350,7 +350,7 @@ export default function PaversPage() {
                 </a>
                 <a
                   href="tel:4809876110"
-                  className="inline-block bg-transparent text-gray-700 border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                  className="inline-block bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors text-center"
                 >
                   Call 480-987-6110
                 </a>
