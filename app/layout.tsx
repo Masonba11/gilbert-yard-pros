@@ -26,25 +26,26 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LandscapingCompany",
+              "@type": "HomeAndConstructionBusiness",
               name: "Gilbert Yard Pros",
               description:
-                "Connect with trusted local landscaping contractors in Gilbert, Arizona. Professional landscaping services including lawn care, tree trimming, paver installation, artificial turf, irrigation, and yard maintenance.",
+                "Professional landscaping and yard maintenance services in Gilbert, Arizona. Connect with trusted local contractors for pavers, turf, irrigation, lawn care, and tree trimming.",
+              url: "https://www.gilbertyardpros.com",
+              telephone: "480-987-6110",
+              priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Gilbert",
                 addressRegion: "AZ",
                 addressCountry: "US",
               },
-              url: "https://www.gilbertyardpros.com",
-              telephone: "480-987-6110",
-              priceRange: "$$",
-              openingHours: "Mo-Su 8:00-18:00",
-              areaServed: {
-                "@type": "City",
-                name: "Gilbert",
-                sameAs: "https://en.wikipedia.org/wiki/Gilbert,_Arizona",
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 33.3528,
+                longitude: -111.789,
               },
+              openingHours: "Mo-Su 08:00-18:00",
+              areaServed: ["Gilbert AZ"],
               sameAs: [],
             }),
           }}

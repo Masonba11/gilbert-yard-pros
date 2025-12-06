@@ -16,11 +16,15 @@ const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   serviceType: "Hardscaping Gilbert AZ",
-  provider: {
-    "@type": "LandscapingCompany",
-    name: "Gilbert Yard Pros",
+  areaServed: {
+    "@type": "City",
+    name: "Gilbert",
   },
-  areaServed: "Gilbert, Arizona",
+  provider: {
+    "@type": "HomeAndConstructionBusiness",
+    name: "Gilbert Yard Pros",
+    url: "https://www.gilbertyardpros.com",
+  },
 };
 
 export default function HardscapingPage() {

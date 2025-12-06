@@ -9,7 +9,7 @@ Professional landscaping services website for Gilbert, Arizona and surrounding E
 - **5 Service Area Pages** (Gilbert, Mesa, Chandler, San Tan Valley, Queen Creek)
 - **Blog Section** with multiple articles
 - **Contact Form** on every page
-- **Schema.org Markup** (LandscapingCompany, Service, BreadcrumbList, ContactPage)
+- **Schema.org Markup** (HomeAndConstructionBusiness, Service, BreadcrumbList, ContactPage)
 - **Dynamic Sitemap** and Robots.txt
 - **Responsive Design** with Tailwind CSS
 - **White + Green Theme** matching branding
@@ -25,7 +25,7 @@ Professional landscaping services website for Gilbert, Arizona and surrounding E
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation

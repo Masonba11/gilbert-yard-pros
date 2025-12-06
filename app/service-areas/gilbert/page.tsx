@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const serviceAreaSchema = {
   "@context": "https://schema.org",
-  "@type": "LandscapingCompany",
+  "@type": "HomeAndConstructionBusiness",
   name: "Gilbert Yard Pros",
   description:
     "Connect with trusted local landscaping contractors in Gilbert, Arizona",

@@ -3,6 +3,7 @@
 ## GitHub Repository Setup
 
 1. **Create a new GitHub repository:**
+
    - Go to https://github.com/new
    - Repository name: `gilbert-yard-pros` (or your preferred name)
    - Description: "Professional landscaping services website for Gilbert, Arizona"
@@ -22,16 +23,19 @@
 ### Option 1: Deploy via Vercel Dashboard (Recommended)
 
 1. **Go to Vercel:**
+
    - Visit https://vercel.com
    - Sign in with your GitHub account
 
 2. **Import Project:**
+
    - Click "Add New..." → "Project"
    - Import your `gilbert-yard-pros` repository
    - Vercel will auto-detect Next.js settings
    - Click "Deploy"
 
 3. **Configure Settings:**
+
    - Framework Preset: Next.js (auto-detected)
    - Build Command: `npm run build` (default)
    - Output Directory: `.next` (default)
@@ -63,12 +67,14 @@ The URL will now appear in the repository's About section.
 ## Environment Variables (if needed)
 
 If you need to add environment variables later:
+
 - Go to Vercel Dashboard → Your Project → Settings → Environment Variables
 - Add any required variables
 
 ## Custom Domain (Optional)
 
 To add a custom domain:
+
 1. Go to Vercel Dashboard → Your Project → Settings → Domains
 2. Add your domain
 3. Follow DNS configuration instructions

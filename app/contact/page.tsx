@@ -18,7 +18,7 @@ const contactPageSchema = {
     "Contact Gilbert Yard Pros for professional landscaping services in Gilbert, Arizona. Get matched with trusted local contractors.",
   contactOption: "CustomerService",
   mainEntity: {
-    "@type": "LandscapingCompany",
+    "@type": "HomeAndConstructionBusiness",
     name: "Gilbert Yard Pros",
     telephone: "480-987-6110",
     email: "info@gilbertyardpros.com",

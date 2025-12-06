@@ -16,12 +16,16 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  serviceType: "Landscape Rock Gilbert AZ",
-  provider: {
-    "@type": "LandscapingCompany",
-    name: "Gilbert Yard Pros",
+  serviceType: "Landscape Rock Installation Gilbert AZ",
+  areaServed: {
+    "@type": "City",
+    name: "Gilbert",
   },
-  areaServed: "Gilbert, Arizona",
+  provider: {
+    "@type": "HomeAndConstructionBusiness",
+    name: "Gilbert Yard Pros",
+    url: "https://www.gilbertyardpros.com",
+  },
 };
 
 export default function LandscapeRockPage() {
