@@ -103,6 +103,9 @@ export default function YardCleanUpPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Professional Yard Clean Up Services in Gilbert, Arizona
+            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer yard clean up services in Gilbert, AZ. Our network of
@@ -127,7 +130,7 @@ export default function YardCleanUpPage() {
 
           {/* What to Expect Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Yard Clean Up Services
             </h2>
             <p className="text-lg text-gray-700 mb-4">
@@ -281,7 +284,7 @@ export default function YardCleanUpPage() {
           </div>
 
           <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Need Yard Clean Up in Gilbert?
             </h2>
             <p className="text-xl text-white mb-6">

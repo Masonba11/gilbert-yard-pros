@@ -98,6 +98,9 @@ export default function IrrigationPage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Professional Irrigation System Installation in Gilbert, Arizona
+            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer irrigation system installation in Gilbert, AZ. Our
@@ -117,7 +120,7 @@ export default function IrrigationPage() {
 
           {/* Irrigation Services Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Comprehensive Irrigation Services
             </h2>
             <p className="text-lg text-gray-700">
@@ -134,7 +137,7 @@ export default function IrrigationPage() {
 
           {/* Modern Irrigation Technology Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Modern Irrigation Technology
             </h2>
             <p className="text-lg text-gray-700">
@@ -159,7 +162,7 @@ export default function IrrigationPage() {
 
           {/* Benefits Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Benefits of Professional Irrigation Systems
             </h2>
             <ul className="list-disc list-inside space-y-3 text-lg text-gray-700 mb-8 ml-4">
@@ -178,7 +181,7 @@ export default function IrrigationPage() {
 
           {/* Process Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               What to Expect from Irrigation Installation Contractors
             </h2>
             <div className="space-y-4 mb-8">
@@ -240,7 +243,7 @@ export default function IrrigationPage() {
 
           {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Frequently Asked Questions
             </h2>
             <div className="space-y-6 mb-8">
@@ -305,7 +308,7 @@ export default function IrrigationPage() {
           {/* CTA Section */}
           <section className="mb-12">
             <div className="bg-primary-green text-white rounded-lg p-8 text-center">
-              <h2 className="text-3xl font-bold text-white mb-4">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Need Irrigation Services in Gilbert?
               </h2>
               <p className="text-xl text-white mb-6">
