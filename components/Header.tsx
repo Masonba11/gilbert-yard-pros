@@ -45,6 +45,21 @@ export default function Header() {
     };
   }, [isServicesOpen, isServiceAreasOpen]);
 
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMenuOpen]);
+
   const services = [
     { name: "Pavers", href: "/services/pavers-gilbert" },
     { name: "Artificial Turf", href: "/services/artificial-turf-gilbert" },
@@ -71,7 +86,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="glass sticky top-0 z-50 border-b border-gray-200/50">
+    <header className="glass sticky top-0 z-50 border-b border-gray-200/50 shadow-modern">
       <nav className="container-max py-4 px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
@@ -271,8 +286,8 @@ export default function Header() {
         </div>
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200/50 glass animate-slide-down">
-            <div className="flex flex-col pt-4">
+          <div className="md:hidden mt-4 border-t border-gray-200/50 glass animate-slide-down max-h-[calc(100vh-120px)] overflow-y-auto overscroll-contain">
+            <div className="flex flex-col pt-4 pb-4">
               <Link
                 href="/"
                 className="text-gray-800 hover:bg-primary-green hover:text-white font-semibold px-6 py-4 border-b border-gray-200/50 transition-all duration-200 active:bg-primary-green active:text-white"
@@ -301,7 +316,7 @@ export default function Header() {
               </button>
               
               {isServicesOpen && (
-                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down">
+                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down max-h-[60vh] overflow-y-auto overscroll-contain">
                   <Link
                     href="/services"
                     className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
@@ -341,7 +356,7 @@ export default function Header() {
               </button>
               
               {isServiceAreasOpen && (
-                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down">
+                <div className="bg-gradient-to-b from-gray-50 to-white animate-slide-down max-h-[40vh] overflow-y-auto overscroll-contain">
                   <Link
                     href="/service-areas"
                     className="block text-gray-700 hover:bg-primary-green hover:text-white text-base px-10 py-3 border-b border-gray-200/30 transition-all duration-200 font-medium"
