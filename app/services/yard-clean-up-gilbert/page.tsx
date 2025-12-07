@@ -311,6 +311,57 @@ export default function YardCleanUpPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is included in yard clean up service?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Our yard clean up includes debris removal, leaf removal, trimming overgrown vegetation, landscape bed cleanup, weed removal, and general yard tidying. Contractors can customize services based on your specific needs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does yard clean up cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yard clean up costs vary based on yard size, amount of debris, and scope of work needed. Contractors in our network provide free estimates for all clean up projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you haul away debris?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, contractors remove and properly dispose of all yard debris, including leaves, branches, dead plants, and other waste materials.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can you do a one-time clean up or do you require ongoing service?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors offer both one-time yard clean up services and can set up regular maintenance schedules. Many customers start with a clean up and then transition to regular maintenance.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does a yard clean up take?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Clean up time depends on yard size and condition. Most residential clean ups are completed in a few hours to a full day. We'll provide an estimated timeline during your consultation.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

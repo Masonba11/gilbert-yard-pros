@@ -301,6 +301,57 @@ export default function LandscapeDesignPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does landscape design cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Design costs vary based on project scope and complexity. Simple designs may be included with installation, while comprehensive designs for large properties are priced separately. Contractors in our network provide design cost estimates during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you design for water-efficient landscapes?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, contractors in our network specialize in water-efficient landscape design using native and adapted plants, efficient irrigation, and xeriscaping principles. Contractors in our network create beautiful landscapes that conserve water and thrive in Gilbert's climate.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can you design for specific styles or themes?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Absolutely. Contractors in our network design landscapes in various styles including desert, modern, traditional, Mediterranean, and more. Contractors in our network work with you to create a design that matches your home's architecture and personal style.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you provide 3D renderings or visualizations?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network provide detailed design plans and can discuss visualization options during your consultation. The contractor's designs include detailed layouts, plant lists, and material specifications to help you visualize the final result.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can you redesign an existing landscape?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, contractors provide landscape renovation and redesign services. They can work with existing features, update plantings, add new elements, or completely transform your landscape based on your goals.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

@@ -316,6 +316,57 @@ export default function LandscapeRockPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What types of landscape rock do you install?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network install various rock types including decomposed granite, river rock, lava rock, pea gravel, crushed granite, and decorative stone in multiple colors and sizes. We'll help you choose based on your preferences and needs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does landscape rock installation cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Rock installation costs vary based on the area size, rock type selected, and preparation requirements. Contractors in our network provide detailed estimates for all rock installation projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you install weed barrier under rock?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we typically install weed barrier fabric under landscape rock to prevent weed growth. This is essential for maintaining a clean, low-maintenance appearance.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How deep should landscape rock be installed?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Rock depth depends on the size of the rock. Smaller rocks like pea gravel typically need 2-3 inches, while larger rocks may need 3-4 inches. We'll install to the appropriate depth for your selected rock type.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can rock be used in combination with plants?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Absolutely. Landscape rock works well with plants, creating attractive, low-maintenance landscapes. We can design installations that incorporate both rock and plantings for beautiful results.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

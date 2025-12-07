@@ -312,6 +312,57 @@ export default function LandscapeLightingPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does landscape lighting cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Lighting costs vary based on the number of fixtures, system type, installation complexity, and features like smart controls. Contractors in our network provide detailed estimates for all lighting projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What types of landscape lighting do you install?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network install path lights, spotlights, floodlights, deck lights, step lights, wall wash lights, and more. We'll recommend appropriate fixtures for each application.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you install LED lighting?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we install energy-efficient LED landscape lighting. LED lights last longer, use less energy, and provide excellent illumination for outdoor spaces.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can lighting be controlled with smart systems?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we install smart lighting controls that allow you to adjust lighting from your phone, set schedules, and create lighting scenes. We can integrate with various smart home systems.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you provide lighting maintenance and repairs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we provide maintenance and repair services for existing landscape lighting systems. We can replace fixtures, repair wiring, update controls, and maintain your lighting system.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

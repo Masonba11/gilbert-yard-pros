@@ -312,6 +312,57 @@ export default function MaintenancePage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is included in landscape maintenance?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Maintenance programs typically include lawn mowing, edging, trimming, weeding, pruning, fertilization, irrigation checks, and cleanup. Services can be customized based on your needs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How often should I schedule maintenance visits?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Frequency depends on your landscape needs and preferences. Weekly visits are common during peak growing season, while bi-weekly or monthly may be sufficient at other times. We'll recommend a schedule during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can maintenance be customized to my needs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we customize maintenance programs to match your specific needs, budget, and preferences. We can focus on particular areas or include comprehensive care.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you provide maintenance for commercial properties?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we provide landscape maintenance for both residential and commercial properties throughout Gilbert. Commercial programs are tailored to business needs and schedules.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What happens if issues are found during maintenance?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We identify and address issues proactively. If problems require specialized attention, we'll discuss options with you and can coordinate additional services as needed.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

@@ -309,6 +309,57 @@ export default function TreeTrimmingPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How often should trees be trimmed in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Most trees benefit from trimming every 2-3 years, though some fast-growing species may need annual attention. We'll assess your trees and recommend an appropriate schedule.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the best time of year to trim trees in Arizona?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Late fall through early spring is generally ideal for most trees in Gilbert, as they're dormant. However, timing can vary by species, and we can trim most trees year-round if needed.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you remove trees or just trim them?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We primarily focus on tree trimming and pruning. For tree removal, we can refer you to qualified tree removal specialists or assist with smaller removals.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Will trimming harm my trees?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Proper trimming actually benefits trees by removing dead or diseased branches and promoting healthy growth. Our certified arborists use techniques that protect tree health.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you trim palm trees?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we provide palm tree trimming services. Palm trees have specific trimming needs, and we're experienced in proper palm tree care throughout Gilbert.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

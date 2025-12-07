@@ -315,6 +315,57 @@ export default function LawnCarePage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How often should I fertilize my lawn in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Fertilization frequency depends on grass type. Most lawns benefit from 4-6 applications per year, with timing adjusted for warm-season or cool-season grasses. We'll develop a schedule during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is lawn aeration and why is it important?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Aeration involves removing small plugs of soil to reduce compaction, improve water and nutrient absorption, and promote root growth. It's especially important for lawns with heavy clay soil or high traffic.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can lawn care help with brown spots?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, our lawn care programs address brown spots through proper fertilization, aeration, overseeding, and identifying underlying issues like disease, pests, or irrigation problems.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you provide organic lawn care options?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors can discuss organic and eco-friendly lawn care options during your consultation. They offer various treatment approaches to meet your preferences and needs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does it take to see results from lawn care?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Results vary, but you typically see improvements in lawn color and health within a few weeks of starting a program. Significant improvements in thickness and overall condition develop over several months with consistent care.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

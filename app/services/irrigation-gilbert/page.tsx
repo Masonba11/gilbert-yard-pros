@@ -338,6 +338,57 @@ export default function IrrigationPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does irrigation system installation cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Irrigation system costs vary based on property size, number of zones, system type, and installation complexity. Contractors in our network provide detailed, free estimates for all irrigation projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What types of irrigation systems do you install?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network install sprinkler systems, drip irrigation, soaker hoses, and smart irrigation systems. We'll recommend the best solution based on your landscape needs and water efficiency goals.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you repair existing irrigation systems?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, contractors in our network provide comprehensive irrigation repair services including fixing broken sprinkler heads, repairing leaks, replacing valves, and updating controllers.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How often should I water my lawn in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Watering frequency depends on season, grass type, and weather conditions. Generally, lawns in Gilbert need 2-3 times per week in summer and less in cooler months. Contractors will program your system accordingly.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can you install smart irrigation controllers?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, contractors install and program smart irrigation controllers that adjust watering based on weather conditions, soil moisture, and local restrictions, helping you save water and money.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

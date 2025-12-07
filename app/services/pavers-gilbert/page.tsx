@@ -363,6 +363,57 @@ export default function PaversPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does paver installation cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Paver installation costs vary based on the size of the project, type of pavers selected, site preparation requirements, and design complexity. Contractors in our network provide detailed, free estimates for all projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What types of pavers do you install?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network install various paver types including concrete pavers, natural stone, brick, travertine, and permeable pavers. We'll help you choose the best option for your specific needs and budget.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does paver installation take?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Installation time depends on the project size and complexity. A typical patio installation takes 2-5 days, while larger projects may take longer. We'll provide a timeline during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do pavers require maintenance?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pavers are relatively low maintenance. Regular sweeping, occasional power washing, and periodic resealing (if applicable) will keep them looking great for years to come.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can pavers be installed over existing concrete?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "In some cases, pavers can be installed over existing concrete if the surface is in good condition. However, proper preparation and assessment are necessary to ensure a successful installation.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

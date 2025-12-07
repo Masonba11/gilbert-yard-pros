@@ -333,6 +333,57 @@ export default function ArtificialTurfPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does artificial turf cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Artificial turf costs vary based on the size of the area, type of turf selected, site preparation requirements, and installation complexity. Contractors in our network provide detailed, free estimates for all projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does artificial turf last?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "High-quality artificial turf can last 15-20 years or more with proper installation and minimal maintenance. The lifespan depends on the product quality, usage, and environmental factors.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is artificial turf safe for pets?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, modern artificial turf is pet-friendly. It's easy to clean, drains well, and doesn't harbor pests. We can recommend specific pet-friendly turf options and installation techniques.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does artificial turf get hot in the Arizona sun?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Artificial turf can get warm in direct sunlight, but modern products are designed to minimize heat retention. We can discuss cooling options and placement strategies during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can artificial turf be installed over existing grass?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No, existing grass must be removed before installation. Proper site preparation is essential for a successful, long-lasting artificial turf installation.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

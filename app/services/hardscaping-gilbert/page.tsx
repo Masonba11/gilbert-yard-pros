@@ -317,6 +317,57 @@ export default function HardscapingPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What hardscape features do you install?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network install patios, walkways, driveways, retaining walls, fire pits, fireplaces, outdoor kitchens, pergolas, water features, and more. We can discuss specific features during your consultation.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does hardscaping cost in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Hardscaping costs vary significantly based on project size, materials selected, complexity, and site conditions. Contractors in our network provide detailed estimates for all hardscaping projects in Gilbert.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What materials do you work with?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Contractors in our network work with various materials including natural stone, pavers, concrete, flagstone, travertine, and more. We'll help you select materials that fit your style and budget.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do hardscapes require permits in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Some hardscape projects may require permits, especially for structures like retaining walls or fire features. We handle permit applications and ensure all work meets local codes.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does hardscape installation take?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Installation time varies by project size and complexity. Simple patios may take a few days, while larger projects with multiple features may take several weeks. We'll provide timelines during your consultation.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

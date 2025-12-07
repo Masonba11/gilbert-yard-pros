@@ -301,6 +301,57 @@ export default function WeedControlPage() {
       </article>
       <PartnerSection />
       <ContactForm />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How often do I need weed control treatments in Gilbert?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Most lawns benefit from regular weed control treatments throughout the growing season. Pre-emergent treatments are typically applied in early spring and fall, with post-emergent treatments as needed.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are weed control products safe for pets and children?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We use professional-grade products that are safe when applied correctly. We follow all label instructions and safety guidelines. Typically, treated areas are safe for pets and children after the product has dried.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Will weed control harm my grass?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "When applied correctly by professionals, weed control products target weeds without harming your healthy grass. We select products appropriate for your grass type.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can you control weeds in landscape beds?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we provide weed control for both lawns and landscape beds. Different products and methods may be used depending on the area and plants present.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does it take to see results?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Results vary by weed type and treatment method. Some weeds show signs of control within days, while others may take a few weeks. We'll discuss expected timelines during your consultation.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }
