@@ -97,11 +97,7 @@ export default function IrrigationPage() {
       <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
-          {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Professional Irrigation System Installation in Gilbert, Arizona
-            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer irrigation system installation in Gilbert, AZ. Our

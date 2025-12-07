@@ -100,9 +100,6 @@ export default function LawnCarePage() {
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Professional Lawn Care Services in Gilbert, Arizona
-            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer lawn care services in Gilbert, AZ. Our network of

@@ -78,9 +78,6 @@ export default function LandscapeDesignPage() {
 
           {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Professional Landscape Design Services in Gilbert, Arizona
-            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer landscape design services in Gilbert, AZ. Our network of

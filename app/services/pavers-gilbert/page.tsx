@@ -96,11 +96,7 @@ export default function PaversPage() {
       <article className="section-padding bg-white">
         <div className="container-max max-w-4xl">
           {/* Introduction Section */}
-          {/* Introduction Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Professional Paver Installation in Gilbert, Arizona
-            </h2>
             <p className="text-xl text-gray-700 mb-4">
               Gilbert Yard Pros connects homeowners with experienced contractors
               who offer paver installation in Gilbert, AZ. Our network of
